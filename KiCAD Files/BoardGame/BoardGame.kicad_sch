@@ -685,6 +685,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 66.04) (xy 83.82 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2e340f-0fe7-4dc8-834f-348e52f2c1f1")
+	)
+	(wire
+		(pts
 			(xy 71.12 64.135) (xy 83.82 64.135)
 		)
 		(stroke
@@ -1423,6 +1433,16 @@
 			)
 			(uuid "629bbf84-7b33-4911-85cd-3f4dea5bb716")
 		)
+		(pin "IO0" input
+			(at 83.82 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96a7b92e-695f-4761-aee0-a89f6ea1ec95")
+		)
 		(instances
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
@@ -1542,6 +1562,16 @@
 			)
 			(uuid "a79655a7-089a-422d-a92c-5e21245b6bd3")
 		)
+		(pin "IO0" output
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "579cf14f-9083-4ce8-a362-2065854d5403")
+		)
 		(instances
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
@@ -1563,7 +1593,7 @@
 			(color 255 229 191 1.0000)
 		)
 		(uuid "bfec7ff5-12b5-4af9-9131-b19e09596ace")
-		(property "Sheetname" "Boost Converter"
+		(property "Sheetname" "3V3 regulator"
 			(at 83.82 94.1734 0)
 			(effects
 				(font
