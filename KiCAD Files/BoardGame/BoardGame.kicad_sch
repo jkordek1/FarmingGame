@@ -445,16 +445,6 @@
 	)
 	(wire
 		(pts
-			(xy 127.635 76.835) (xy 127.635 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00275ae3-c788-4c44-b738-c8d5003f5118")
-	)
-	(wire
-		(pts
 			(xy 130.175 67.945) (xy 114.3 67.945)
 		)
 		(stroke
@@ -462,16 +452,6 @@
 			(type default)
 		)
 		(uuid "030078f2-5073-4316-a561-3e28ec647acd")
-	)
-	(wire
-		(pts
-			(xy 125.095 79.375) (xy 125.095 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec29002-a489-44ce-8163-d4194473254b")
 	)
 	(polyline
 		(pts
@@ -482,16 +462,6 @@
 			(type default)
 		)
 		(uuid "1f28e1cd-9870-474e-b124-f2770b935aa4")
-	)
-	(wire
-		(pts
-			(xy 139.065 170.18) (xy 120.015 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2200796b-9032-463b-bd1b-d6055065b8d2")
 	)
 	(polyline
 		(pts
@@ -512,16 +482,6 @@
 			(type default)
 		)
 		(uuid "2ed32139-7e8a-4df4-b07f-1a16bbd59911")
-	)
-	(wire
-		(pts
-			(xy 114.3 79.375) (xy 125.095 79.375)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c1a06a-cafd-4461-870a-cdfbcac3efa7")
 	)
 	(wire
 		(pts
@@ -615,16 +575,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.755) (xy 139.065 71.755)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac189bbf-ab99-44d0-9e79-fce59f56d416")
-	)
-	(wire
-		(pts
 			(xy 71.12 81.28) (xy 83.82 81.28)
 		)
 		(stroke
@@ -632,16 +582,6 @@
 			(type default)
 		)
 		(uuid "ae7f0f4c-1c1f-4b55-9cfe-2e310450ea61")
-	)
-	(wire
-		(pts
-			(xy 139.065 111.125) (xy 127.635 111.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b101182f-3372-4741-806b-ee0e95cd10ce")
 	)
 	(polyline
 		(pts
@@ -655,16 +595,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 170.18) (xy 120.015 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e81919-7e09-44f8-8f52-7e6f657063af")
-	)
-	(wire
-		(pts
 			(xy 127.635 36.83) (xy 136.525 36.83)
 		)
 		(stroke
@@ -672,16 +602,6 @@
 			(type default)
 		)
 		(uuid "ba6fcc79-d76d-4eb0-bb7d-c28f38033fc1")
-	)
-	(wire
-		(pts
-			(xy 114.3 76.835) (xy 127.635 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "badc6a50-e048-4430-b0a4-2ca187145932")
 	)
 	(wire
 		(pts
@@ -715,16 +635,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.065 130.81) (xy 125.095 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d201c292-d7c8-40d0-aefb-943ddeb2ae8b")
-	)
-	(wire
-		(pts
 			(xy 71.12 61.595) (xy 83.82 61.595)
 		)
 		(stroke
@@ -742,16 +652,6 @@
 			(type default)
 		)
 		(uuid "df1531ab-c94c-4f56-840c-e836a3f53cea")
-	)
-	(wire
-		(pts
-			(xy 114.3 84.455) (xy 120.015 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df1d5576-feaa-47f9-ac3f-001f76f01a4c")
 	)
 	(polyline
 		(pts
@@ -813,6 +713,17 @@
 			(justify left bottom)
 		)
 		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
+	)
+	(text "TO-DO:\n- maknuti ATmega328p i staviti ESP32\n- ESP32 autoreset circuit\n- dodati 3V3 LDO\n- maknuti 5V boost converter ako se ne koristi\n- dodati 4x OLED display, 1x okrugli IPS\n- provjeriti jel sve komponente rade na 3V3"
+		(exclude_from_sim no)
+		(at 17.78 188.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be6d6081-bfca-4a22-9794-97558cab6996")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -1492,16 +1403,6 @@
 			)
 			(uuid "d59d89ed-a714-431c-8e56-80fdf6702eaa")
 		)
-		(pin "NP_1" output
-			(at 114.3 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fe9c9aab-6288-4dde-9446-a89fb36fb8f2")
-		)
 		(pin "NP_2" output
 			(at 114.3 74.295 0)
 			(effects
@@ -1512,26 +1413,6 @@
 			)
 			(uuid "c7b1a103-c928-4661-a3dd-93d1dd6892c4")
 		)
-		(pin "NP_6" output
-			(at 114.3 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "426b5a27-ddf0-452e-ad28-f4044ee963bb")
-		)
-		(pin "NP_4" output
-			(at 114.3 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a1f80752-4526-44da-b096-a8d97724d884")
-		)
 		(pin "NP_5" output
 			(at 114.3 81.915 0)
 			(effects
@@ -1541,16 +1422,6 @@
 				(justify right)
 			)
 			(uuid "629bbf84-7b33-4911-85cd-3f4dea5bb716")
-		)
-		(pin "NP_3" output
-			(at 114.3 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b26e3d66-93be-4d9e-b47e-2d4c6c2927d7")
 		)
 		(instances
 			(project "BoardGame"
@@ -1605,104 +1476,6 @@
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
 					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 139.065 104.14)
-		(size 13.97 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1.0000)
-		)
-		(uuid "57d82324-0abf-4328-b3f1-f817347d0876")
-		(property "Sheetname" "Dice LEDs"
-			(at 139.065 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Dice LEDs.kicad_sch"
-			(at 139.065 118.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "NP_3" input
-			(at 139.065 111.125 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f04c1c2c-adba-464b-95f7-a0c03211b04a")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 139.065 123.825)
-		(size 13.97 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1.0000)
-		)
-		(uuid "91ba8d27-07f1-4eba-bfbc-975a120c117b")
-		(property "Sheetname" "Safehouse LEDs"
-			(at 139.065 123.1134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Safehouse LEDs.kicad_sch"
-			(at 139.065 138.3796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "NP_4" input
-			(at 139.065 130.81 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "12d09135-c290-488a-91c8-a0abb7f167d9")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
-					(page "9")
 				)
 			)
 		)
@@ -1813,104 +1586,6 @@
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 139.065 64.77)
-		(size 13.97 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1.0000)
-		)
-		(uuid "c5cd13b3-9b34-4e8f-b70a-79b705a37663")
-		(property "Sheetname" "Finish LEDs"
-			(at 139.065 64.0584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Finish LEDs.kicad_sch"
-			(at 139.065 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "NP_1" input
-			(at 139.065 71.755 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "af301a38-4606-4a62-bcc8-02ad96739abb")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 139.065 163.195)
-		(size 14.605 13.97)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 229 191 1.0000)
-		)
-		(uuid "cb2d0caa-d94a-4d9d-8880-03511cd9ebd5")
-		(property "Sheetname" "Battery indicator LED"
-			(at 139.065 162.4834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Battery indicator LED.kicad_sch"
-			(at 139.065 177.7496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "NP_6" input
-			(at 139.065 170.18 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "22aeb369-4de7-439c-8db9-5d3437f132fc")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9"
-					(page "13")
 				)
 			)
 		)

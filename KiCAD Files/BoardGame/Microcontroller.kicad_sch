@@ -2425,6 +2425,14 @@
 		(uuid "06939b51-cb5d-49a9-ac71-e1e87a9e25ce")
 	)
 	(no_connect
+		(at 109.22 133.35)
+		(uuid "2035362f-8ee7-414e-bad7-07dfc8073c41")
+	)
+	(no_connect
+		(at 109.22 135.89)
+		(uuid "2dac5730-d7c6-4250-917a-5e5f05881062")
+	)
+	(no_connect
 		(at 78.74 82.55)
 		(uuid "40acadd1-a910-4af5-8969-59ee75402f84")
 	)
@@ -2437,8 +2445,16 @@
 		(uuid "b10d6a17-2d23-4c25-ab63-2cc1761ccb91")
 	)
 	(no_connect
+		(at 109.22 77.47)
+		(uuid "c55464bf-fe37-4778-9c7e-b0bc22e950c7")
+	)
+	(no_connect
 		(at 109.22 80.01)
 		(uuid "e561dd1f-013c-441f-a632-3e49ac03391e")
+	)
+	(no_connect
+		(at 109.22 107.95)
+		(uuid "fbdfc53b-4334-4fc3-ab87-df78c5a30d43")
 	)
 	(wire
 		(pts
@@ -2910,18 +2926,6 @@
 		)
 		(uuid "106a1e46-430e-4973-b187-3371d6be3fc9")
 	)
-	(hierarchical_label "NP_1"
-		(shape output)
-		(at 109.22 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1193ad4c-8b53-4244-a5f5-086873df9a70")
-	)
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 238.76 71.12 180)
@@ -2957,18 +2961,6 @@
 			(justify left)
 		)
 		(uuid "31eda1b9-261c-4de4-8f7d-ebd49cc823f3")
-	)
-	(hierarchical_label "NP_3"
-		(shape output)
-		(at 109.22 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37e88bad-096b-4061-9813-3727859d8c43")
 	)
 	(hierarchical_label "NP_2"
 		(shape output)
@@ -3042,18 +3034,6 @@
 		)
 		(uuid "950f20f4-9880-46f4-b429-ffd0d62edde9")
 	)
-	(hierarchical_label "NP_4"
-		(shape output)
-		(at 109.22 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bb95b31d-4567-4d46-9a03-c09e2399dd77")
-	)
 	(hierarchical_label "RX"
 		(shape input)
 		(at 109.22 120.65 0)
@@ -3089,18 +3069,6 @@
 			(justify left)
 		)
 		(uuid "e1a0686c-2d7a-445e-917c-6b1f5691a68e")
-	)
-	(hierarchical_label "NP_6"
-		(shape output)
-		(at 109.22 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7ec03df-a3f0-4b77-986a-e4ad88775fb0")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")

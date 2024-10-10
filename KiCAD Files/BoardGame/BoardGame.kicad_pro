@@ -501,6 +501,7 @@
   },
   "schematic": {
     "annotate_start_num": 1084,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -637,24 +638,8 @@
       "Path LEDs"
     ],
     [
-      "91ba8d27-07f1-4eba-bfbc-975a120c117b",
-      "Safehouse LEDs"
-    ],
-    [
-      "c5cd13b3-9b34-4e8f-b70a-79b705a37663",
-      "Finish LEDs"
-    ],
-    [
       "522b0d86-69b3-4867-83a4-c5bdcf091b48",
       "Touchpad LEDs"
-    ],
-    [
-      "57d82324-0abf-4328-b3f1-f817347d0876",
-      "Dice LEDs"
-    ],
-    [
-      "cb2d0caa-d94a-4d9d-8880-03511cd9ebd5",
-      "Battery indicator LED"
     ],
     [
       "451bdb88-099a-45fd-b563-6afcc15e7e5f",
