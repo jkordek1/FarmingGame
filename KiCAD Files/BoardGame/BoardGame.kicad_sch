@@ -415,9 +415,9 @@
 		)
 		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
 	)
-	(text "TO-DO:\n- provjeriti jel sve električki točno spojeno\n- dodijeliti footprinte\n- TME BOM\n- bolje razmjestiti rupe da ne zijeva kučište"
+	(text "TO-DO:\n- provjeriti jel sve električki točno spojeno (isprintati i proči kroz sve)\n- Nacrtati footprinte koji nedostaju (zasloni)\n- dodijeliti footprinte\n- Fixati 3D Modele koji nedostaju na footprintima\n- TME BOM sastaviti\n\nLayout:\n- bolje razmjestiti rupe da ne zijeva kučište"
 		(exclude_from_sim no)
-		(at 17.78 188.214 0)
+		(at 16.002 184.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)
