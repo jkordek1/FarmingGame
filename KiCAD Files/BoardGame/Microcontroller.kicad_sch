@@ -2309,7 +2309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
+		(property "Footprint" "Footprints:ESP32"
 			(at 123.19 153.67 0)
 			(effects
 				(font
