@@ -383,9 +383,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -459,8 +459,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -479,9 +479,9 @@
 		)
 		(symbol "power:VCC"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -495,7 +495,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -579,8 +579,8 @@
 			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "VCC"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -599,12 +599,12 @@
 		)
 	)
 	(no_connect
-		(at 259.08 147.955)
+		(at 259.08 148.59)
 		(uuid "4587241c-4b32-4558-9478-70a7f5cf91ff")
 	)
 	(wire
 		(pts
-			(xy 160.02 147.955) (xy 161.29 147.955)
+			(xy 160.02 148.59) (xy 161.29 148.59)
 		)
 		(stroke
 			(width 0)
@@ -624,7 +624,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.345) (xy 128.27 93.345)
+			(xy 127 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -634,7 +634,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 65.405) (xy 177.8 65.405)
+			(xy 176.53 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -644,7 +644,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 147.955) (xy 177.8 147.955)
+			(xy 176.53 148.59) (xy 177.8 148.59)
 		)
 		(stroke
 			(width 0)
@@ -654,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.345) (xy 161.29 93.345)
+			(xy 160.02 93.98) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -674,7 +674,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 65.405) (xy 62.23 52.07)
+			(xy 62.23 66.04) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0)
@@ -714,7 +714,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 65.405) (xy 210.82 65.405)
+			(xy 209.55 66.04) (xy 210.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -734,7 +734,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 93.345) (xy 227.33 107.315)
+			(xy 227.33 93.98) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -744,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 147.955) (xy 78.74 147.955)
+			(xy 77.47 148.59) (xy 78.74 148.59)
 		)
 		(stroke
 			(width 0)
@@ -764,7 +764,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.345) (xy 111.76 93.345)
+			(xy 110.49 93.98) (xy 111.76 93.98)
 		)
 		(stroke
 			(width 0)
@@ -784,7 +784,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 93.345) (xy 194.31 93.345)
+			(xy 193.04 93.98) (xy 194.31 93.98)
 		)
 		(stroke
 			(width 0)
@@ -814,7 +814,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 107.315) (xy 227.33 107.315)
+			(xy 62.23 107.95) (xy 227.33 107.95)
 		)
 		(stroke
 			(width 0)
@@ -824,7 +824,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 79.375) (xy 227.33 79.375)
+			(xy 62.23 80.01) (xy 227.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +854,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 93.345) (xy 95.25 93.345)
+			(xy 93.98 93.98) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -864,7 +864,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 93.345) (xy 144.78 93.345)
+			(xy 143.51 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -874,7 +874,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 79.375) (xy 62.23 93.345)
+			(xy 62.23 80.01) (xy 62.23 93.98)
 		)
 		(stroke
 			(width 0)
@@ -884,7 +884,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.345) (xy 177.8 93.345)
+			(xy 176.53 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -894,7 +894,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 65.405) (xy 95.25 65.405)
+			(xy 93.98 66.04) (xy 95.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -914,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 65.405) (xy 227.33 79.375)
+			(xy 227.33 66.04) (xy 227.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +924,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 65.405) (xy 161.29 65.405)
+			(xy 160.02 66.04) (xy 161.29 66.04)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +934,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 62.23 147.955)
+			(xy 62.23 134.62) (xy 62.23 148.59)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 65.405) (xy 194.31 65.405)
+			(xy 193.04 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
@@ -974,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 93.345) (xy 227.33 93.345)
+			(xy 226.06 93.98) (xy 227.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1004,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 107.315) (xy 62.23 120.65)
+			(xy 62.23 107.95) (xy 62.23 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1024,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 147.955) (xy 111.76 147.955)
+			(xy 110.49 148.59) (xy 111.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1044,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 147.955) (xy 95.25 147.955)
+			(xy 93.98 148.59) (xy 95.25 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1054,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 65.405) (xy 227.33 65.405)
+			(xy 226.06 66.04) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1064,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.345) (xy 210.82 93.345)
+			(xy 209.55 93.98) (xy 210.82 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1074,7 +1074,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 147.955) (xy 194.31 147.955)
+			(xy 193.04 148.59) (xy 194.31 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1104,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 65.405) (xy 128.27 65.405)
+			(xy 127 66.04) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1124,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.345) (xy 78.74 93.345)
+			(xy 77.47 93.98) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1144,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 65.405) (xy 111.76 65.405)
+			(xy 110.49 66.04) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1154,7 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 38.1) (xy 55.88 38.1)
+			(xy 54.61 38.1) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1174,7 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 147.955) (xy 144.78 147.955)
+			(xy 143.51 148.59) (xy 144.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1184,7 +1184,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 147.955) (xy 227.33 147.955)
+			(xy 226.06 148.59) (xy 227.33 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1194,7 +1194,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 65.405) (xy 78.74 65.405)
+			(xy 77.47 66.04) (xy 78.74 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1204,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 147.955) (xy 128.27 147.955)
+			(xy 127 148.59) (xy 128.27 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 65.405) (xy 144.78 65.405)
+			(xy 143.51 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 147.955) (xy 210.82 147.955)
+			(xy 209.55 148.59) (xy 210.82 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1234,7 +1234,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.955) (xy 243.84 147.955)
+			(xy 242.57 148.59) (xy 243.84 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1267,7 +1267,7 @@
 	)
 	(hierarchical_label "NP_2"
 		(shape input)
-		(at 53.975 38.1 180)
+		(at 54.61 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1279,7 +1279,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 155.575 0)
+		(at 234.95 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1288,7 +1288,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b6ed78-bea8-4e4a-b220-1b5fd2b37b71")
 		(property "Reference" "#PWR01103"
-			(at 234.95 161.925 0)
+			(at 234.95 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 160.0184 0)
+			(at 234.95 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +1305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 155.575 0)
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 155.575 0)
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,8 +1322,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1345,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 218.44 65.405 0)
+		(at 218.44 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1353,7 +1353,7 @@
 		(dnp no)
 		(uuid "01041d9a-e33d-4e31-b965-5564703f3f6a")
 		(property "Reference" "D1020"
-			(at 213.995 59.055 0)
+			(at 213.995 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 224.155 71.755 0)
+			(at 224.155 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1370,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 219.71 73.025 0)
+			(at 219.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 220.98 74.93 0)
+			(at 220.98 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,7 +1390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 65.405 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 218.44 65.405 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1408,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 218.44 65.405 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 218.44 65.405 0)
+			(at 218.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 152.4 30.48 0)
 			(effects
 				(font
@@ -1514,7 +1514,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 218.44 93.345 0)
+		(at 218.44 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1522,7 +1522,7 @@
 		(dnp no)
 		(uuid "02904ab5-c0af-478c-bd55-2ad118d48109")
 		(property "Reference" "D1030"
-			(at 213.995 86.995 0)
+			(at 213.995 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,7 +1530,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 224.155 99.695 0)
+			(at 224.155 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1539,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 219.71 100.965 0)
+			(at 219.71 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1549,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 220.98 102.87 0)
+			(at 220.98 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 93.345 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1568,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 218.44 93.345 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1577,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 218.44 93.345 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1586,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 218.44 93.345 0)
+			(at 218.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1617,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 140.335 0)
+		(at 119.38 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1626,7 +1626,7 @@
 		(fields_autoplaced yes)
 		(uuid "036ce22d-5744-44ce-a99d-caf68d81c4cd")
 		(property "Reference" "#PWR01084"
-			(at 119.38 144.145 0)
+			(at 119.38 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1635,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 119.38 136.7592 0)
+			(at 119.38 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 140.335 0)
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1652,7 +1652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 140.335 0)
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,8 +1660,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1683,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 152.4 93.345 0)
+		(at 152.4 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1691,7 +1691,7 @@
 		(dnp no)
 		(uuid "0925a6ff-4937-4a8e-a5ba-76dc61982002")
 		(property "Reference" "D1026"
-			(at 147.955 86.995 0)
+			(at 147.955 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1699,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 158.115 99.695 0)
+			(at 158.115 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1708,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 153.67 100.965 0)
+			(at 153.67 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 154.94 102.87 0)
+			(at 154.94 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1728,7 +1728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 93.345 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 152.4 93.345 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 152.4 93.345 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1755,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 152.4 93.345 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 155.575 0)
+		(at 185.42 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1795,7 +1795,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b0c0757-c148-44c3-b2c7-dac017a1dedd")
 		(property "Reference" "#PWR01100"
-			(at 185.42 161.925 0)
+			(at 185.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 160.0184 0)
+			(at 185.42 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 155.575 0)
+			(at 185.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 155.575 0)
+			(at 185.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,8 +1829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 102.87 30.48 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 135.89 57.785 0)
+		(at 135.89 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1927,7 +1927,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c8fe0cd-7ed9-4158-b2ae-953f455ca3d8")
 		(property "Reference" "#PWR01025"
-			(at 135.89 61.595 0)
+			(at 135.89 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 135.89 54.2092 0)
+			(at 135.89 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1944,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 57.785 0)
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 57.785 0)
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,8 +1961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 135.89 113.03 0)
 			(effects
 				(font
@@ -2093,7 +2093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -2219,7 +2219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 155.575 0)
+		(at 69.85 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2228,7 +2228,7 @@
 		(fields_autoplaced yes)
 		(uuid "1632bf71-2d6f-4bd1-bca2-351536772afc")
 		(property "Reference" "#PWR01093"
-			(at 69.85 161.925 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 160.0184 0)
+			(at 69.85 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 155.575 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 155.575 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,8 +2262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2285,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 185.42 65.405 0)
+		(at 185.42 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +2293,7 @@
 		(dnp no)
 		(uuid "174ca825-167b-46b7-9afd-910cac006f46")
 		(property "Reference" "D1018"
-			(at 180.975 59.055 0)
+			(at 180.975 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2301,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 191.135 71.755 0)
+			(at 191.135 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2310,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 186.69 73.025 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 187.96 74.93 0)
+			(at 187.96 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 65.405 0)
+			(at 185.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2339,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 185.42 65.405 0)
+			(at 185.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 185.42 65.405 0)
+			(at 185.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2357,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 185.42 65.405 0)
+			(at 185.42 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2388,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 73.025 0)
+		(at 168.91 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2397,7 +2397,7 @@
 		(fields_autoplaced yes)
 		(uuid "1865e131-83d7-4a3c-b4fc-8052013830db")
 		(property "Reference" "#PWR01037"
-			(at 168.91 79.375 0)
+			(at 168.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 77.4684 0)
+			(at 168.91 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,7 +2414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 73.025 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 73.025 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,8 +2431,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 119.38 65.405 0)
+		(at 119.38 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2565,7 +2565,7 @@
 		(dnp no)
 		(uuid "1ad577ac-74e8-401d-a1cf-c7e7a8c548f7")
 		(property "Reference" "D1014"
-			(at 114.935 59.055 0)
+			(at 114.935 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2573,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 125.095 71.755 0)
+			(at 125.095 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2582,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 120.65 73.025 0)
+			(at 120.65 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +2592,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 121.92 74.93 0)
+			(at 121.92 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 65.405 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2611,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 119.38 65.405 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2620,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 119.38 65.405 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2629,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 119.38 65.405 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2660,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 201.93 57.785 0)
+		(at 201.93 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2669,7 +2669,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bfe18b4-6b9e-4039-a7f3-c5ad1d10407e")
 		(property "Reference" "#PWR01029"
-			(at 201.93 61.595 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2678,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 201.93 54.2092 0)
+			(at 201.93 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 57.785 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 57.785 0)
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,8 +2703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 201.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2726,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 201.93 147.955 0)
+		(at 201.93 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2734,7 +2734,7 @@
 		(dnp no)
 		(uuid "1cf00b2d-33ef-4625-911d-e2ffe1fb1dfb")
 		(property "Reference" "D1049"
-			(at 197.485 141.605 0)
+			(at 197.485 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 207.645 154.305 0)
+			(at 207.645 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 203.2 155.575 0)
+			(at 203.2 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 204.47 157.48 0)
+			(at 204.47 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 147.955 0)
+			(at 201.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +2780,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 201.93 147.955 0)
+			(at 201.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2789,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 201.93 147.955 0)
+			(at 201.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2798,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 201.93 147.955 0)
+			(at 201.93 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.36 57.785 0)
+		(at 86.36 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2941,7 +2941,7 @@
 		(fields_autoplaced yes)
 		(uuid "1db3baa7-c714-4375-8b20-f3c7df4ab9b6")
 		(property "Reference" "#PWR01022"
-			(at 86.36 61.595 0)
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 86.36 54.2092 0)
+			(at 86.36 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 57.785 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 57.785 0)
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,8 +2975,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 73.025 0)
+		(at 218.44 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3110,7 +3110,7 @@
 		(fields_autoplaced yes)
 		(uuid "218745c7-664c-488b-b4e5-853edcaf8072")
 		(property "Reference" "#PWR01040"
-			(at 218.44 79.375 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +3119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 77.4684 0)
+			(at 218.44 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 73.025 0)
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 73.025 0)
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,8 +3144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -3233,7 +3233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 100.965 0)
+		(at 168.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3242,7 +3242,7 @@
 		(fields_autoplaced yes)
 		(uuid "259ddcd0-da19-4c86-a8fb-cd8e6c06cc2f")
 		(property "Reference" "#PWR01057"
-			(at 168.91 107.315 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 105.4084 0)
+			(at 168.91 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 100.965 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3268,7 +3268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 100.965 0)
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,8 +3276,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3299,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 185.42 147.955 0)
+		(at 185.42 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3307,7 +3307,7 @@
 		(dnp no)
 		(uuid "261bf84a-8212-4757-bd38-82e0d9559575")
 		(property "Reference" "D1048"
-			(at 180.975 141.605 0)
+			(at 180.975 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3315,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 191.135 154.305 0)
+			(at 191.135 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3324,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 186.69 155.575 0)
+			(at 186.69 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3334,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 187.96 157.48 0)
+			(at 187.96 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 147.955 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +3353,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 185.42 147.955 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +3362,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 185.42 147.955 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 185.42 147.955 0)
+			(at 185.42 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3402,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 73.025 0)
+		(at 185.42 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3411,7 +3411,7 @@
 		(fields_autoplaced yes)
 		(uuid "27123233-cb8a-4bac-8a42-c472dadc3fe5")
 		(property "Reference" "#PWR01038"
-			(at 185.42 79.375 0)
+			(at 185.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 77.4684 0)
+			(at 185.42 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3428,7 +3428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 73.025 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 73.025 0)
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3445,8 +3445,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +3468,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 168.91 140.335 0)
+		(at 168.91 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3477,7 +3477,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c62616f-38be-427d-b57c-73a71eea916f")
 		(property "Reference" "#PWR01087"
-			(at 168.91 144.145 0)
+			(at 168.91 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3486,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 168.91 136.7592 0)
+			(at 168.91 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 140.335 0)
+			(at 168.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 140.335 0)
+			(at 168.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3511,8 +3511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3534,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 100.965 0)
+		(at 152.4 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3543,7 +3543,7 @@
 		(fields_autoplaced yes)
 		(uuid "31b55528-ab6a-45af-b12e-6bc37c8f5011")
 		(property "Reference" "#PWR01056"
-			(at 152.4 107.315 0)
+			(at 152.4 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 105.4084 0)
+			(at 152.4 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 100.965 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 100.965 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,8 +3577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 152.4 128.27 0)
 			(effects
 				(font
@@ -3666,7 +3666,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 119.38 93.345 0)
+		(at 119.38 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3674,7 +3674,7 @@
 		(dnp no)
 		(uuid "35fba3df-4cfd-4baf-925e-c2ff542de3f0")
 		(property "Reference" "D1024"
-			(at 114.935 86.995 0)
+			(at 114.935 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3682,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 125.095 99.695 0)
+			(at 125.095 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 120.65 100.965 0)
+			(at 120.65 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3701,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 121.92 102.87 0)
+			(at 121.92 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 93.345 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3720,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 119.38 93.345 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3729,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 119.38 93.345 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3738,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 119.38 93.345 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3769,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 85.725 0)
+		(at 102.87 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3778,7 +3778,7 @@
 		(fields_autoplaced yes)
 		(uuid "36cba52e-3b68-4557-9d24-235539fd805a")
 		(property "Reference" "#PWR01043"
-			(at 102.87 89.535 0)
+			(at 102.87 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3787,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 102.87 82.1492 0)
+			(at 102.87 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 85.725 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 85.725 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,8 +3812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 86.36 65.405 0)
+		(at 86.36 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4049,7 +4049,7 @@
 		(dnp no)
 		(uuid "3d5aa31a-2e67-4a6a-b76f-ec34967a28e6")
 		(property "Reference" "D1012"
-			(at 81.915 59.055 0)
+			(at 81.915 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +4057,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 92.075 71.755 0)
+			(at 92.075 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +4066,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 87.63 73.025 0)
+			(at 87.63 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 88.9 74.93 0)
+			(at 88.9 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 65.405 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4095,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 86.36 65.405 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 86.36 65.405 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 86.36 65.405 0)
+			(at 86.36 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4144,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 251.46 140.335 0)
+		(at 251.46 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4153,7 +4153,7 @@
 		(fields_autoplaced yes)
 		(uuid "423e05cb-c763-4db6-9052-0ba5086b1fbf")
 		(property "Reference" "#PWR01092"
-			(at 251.46 144.145 0)
+			(at 251.46 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 251.46 136.7592 0)
+			(at 251.46 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4170,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 140.335 0)
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 140.335 0)
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,8 +4187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 251.46 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 251.46 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 185.42 128.27 0)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 152.4 140.335 0)
+		(at 152.4 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4285,7 +4285,7 @@
 		(fields_autoplaced yes)
 		(uuid "463482b4-6021-4192-8872-47c1aa187a97")
 		(property "Reference" "#PWR01086"
-			(at 152.4 144.145 0)
+			(at 152.4 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +4294,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 152.4 136.7592 0)
+			(at 152.4 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 140.335 0)
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 140.335 0)
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,8 +4319,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4342,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 69.85 85.725 0)
+		(at 69.85 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4351,7 +4351,7 @@
 		(fields_autoplaced yes)
 		(uuid "493c7504-739e-485d-a8eb-b35d8028b186")
 		(property "Reference" "#PWR01041"
-			(at 69.85 89.535 0)
+			(at 69.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4360,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 69.85 82.1492 0)
+			(at 69.85 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 85.725 0)
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 85.725 0)
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,8 +4385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 152.4 147.955 0)
+		(at 152.4 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4416,7 +4416,7 @@
 		(dnp no)
 		(uuid "4bf3b027-31d5-4d8c-9362-ce6bd8be4660")
 		(property "Reference" "D1046"
-			(at 147.955 141.605 0)
+			(at 147.955 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4424,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 158.115 154.305 0)
+			(at 158.115 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4433,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 153.67 155.575 0)
+			(at 153.67 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 154.94 157.48 0)
+			(at 154.94 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 147.955 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4462,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 152.4 147.955 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4471,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 152.4 147.955 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4480,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 152.4 147.955 0)
+			(at 152.4 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 135.89 147.955 0)
+		(at 135.89 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4519,7 +4519,7 @@
 		(dnp no)
 		(uuid "4e57385b-d194-4ae8-88bc-7ba44f5a0a2e")
 		(property "Reference" "D1045"
-			(at 131.445 141.605 0)
+			(at 131.445 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4527,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 141.605 154.305 0)
+			(at 141.605 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4536,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 137.16 155.575 0)
+			(at 137.16 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4546,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 138.43 157.48 0)
+			(at 138.43 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,7 +4556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 147.955 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,7 +4565,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 135.89 147.955 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,7 +4574,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 135.89 147.955 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,7 +4583,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 135.89 147.955 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 234.95 147.955 0)
+		(at 234.95 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(uuid "50f0ab18-c589-4ff6-972a-0d675158b397")
 		(property "Reference" "D1051"
-			(at 230.505 141.605 0)
+			(at 230.505 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4630,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 240.665 154.305 0)
+			(at 240.665 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 236.22 155.575 0)
+			(at 236.22 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +4649,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 237.49 157.48 0)
+			(at 237.49 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 147.955 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 234.95 147.955 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4677,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 234.95 147.955 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 234.95 147.955 0)
+			(at 234.95 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4717,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.36 85.725 0)
+		(at 86.36 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4726,7 +4726,7 @@
 		(fields_autoplaced yes)
 		(uuid "542240af-19c6-4ee4-91c7-b488c3871327")
 		(property "Reference" "#PWR01042"
-			(at 86.36 89.535 0)
+			(at 86.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4735,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 86.36 82.1492 0)
+			(at 86.36 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 85.725 0)
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 85.725 0)
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4760,8 +4760,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 45.72 0)
 			(effects
 				(font
@@ -4952,7 +4952,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 100.965 0)
+		(at 69.85 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4961,7 +4961,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ccffb8-95f2-400e-a7d6-c356dd86ff11")
 		(property "Reference" "#PWR01051"
-			(at 69.85 107.315 0)
+			(at 69.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +4970,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 105.4084 0)
+			(at 69.85 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +4978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 100.965 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +4987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 100.965 0)
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,8 +4995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5018,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 251.46 147.955 0)
+		(at 251.46 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5026,7 +5026,7 @@
 		(dnp no)
 		(uuid "5be99ac2-4677-4a97-9487-9f8c6cee187b")
 		(property "Reference" "D1052"
-			(at 247.015 141.605 0)
+			(at 247.015 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 257.175 154.305 0)
+			(at 257.175 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5043,7 +5043,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 252.73 155.575 0)
+			(at 252.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5053,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 254 157.48 0)
+			(at 254 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 147.955 0)
+			(at 251.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5072,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 251.46 147.955 0)
+			(at 251.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5081,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 251.46 147.955 0)
+			(at 251.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5090,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 251.46 147.955 0)
+			(at 251.46 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 155.575 0)
+		(at 86.36 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5130,7 +5130,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cd1982c-8851-4615-9475-7b43cdcfa240")
 		(property "Reference" "#PWR01094"
-			(at 86.36 161.925 0)
+			(at 86.36 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 160.0184 0)
+			(at 86.36 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 155.575 0)
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,7 +5156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 155.575 0)
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5164,8 +5164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 45.72 0)
 			(effects
 				(font
@@ -5356,7 +5356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 155.575 0)
+		(at 218.44 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5365,7 +5365,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fbdee47-03ef-45f6-88fe-dd2b77bcf01e")
 		(property "Reference" "#PWR01102"
-			(at 218.44 161.925 0)
+			(at 218.44 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5374,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 160.0184 0)
+			(at 218.44 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 155.575 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5391,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 155.575 0)
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,8 +5399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5422,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 201.93 65.405 0)
+		(at 201.93 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5430,7 +5430,7 @@
 		(dnp no)
 		(uuid "5fe89344-b3f1-4a16-8282-2e3094499dbc")
 		(property "Reference" "D1019"
-			(at 197.485 59.055 0)
+			(at 197.485 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5438,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 207.645 71.755 0)
+			(at 207.645 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5447,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 203.2 73.025 0)
+			(at 203.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5457,7 +5457,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 204.47 74.93 0)
+			(at 204.47 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 65.405 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5476,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 201.93 65.405 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5485,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 201.93 65.405 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5494,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 201.93 65.405 0)
+			(at 201.93 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +5525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 100.965 0)
+		(at 218.44 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5534,7 +5534,7 @@
 		(fields_autoplaced yes)
 		(uuid "616d1e91-5f31-4723-b8dd-1eb1c4e1c0a0")
 		(property "Reference" "#PWR01060"
-			(at 218.44 107.315 0)
+			(at 218.44 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 105.4084 0)
+			(at 218.44 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 100.965 0)
+			(at 218.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 100.965 0)
+			(at 218.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,8 +5568,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5591,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 100.965 0)
+		(at 119.38 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5600,7 +5600,7 @@
 		(fields_autoplaced yes)
 		(uuid "6207e3d6-f6fa-4469-b46e-25580e098803")
 		(property "Reference" "#PWR01054"
-			(at 119.38 107.315 0)
+			(at 119.38 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 105.4084 0)
+			(at 119.38 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 100.965 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 100.965 0)
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,8 +5634,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 73.025 0)
+		(at 135.89 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5666,7 +5666,7 @@
 		(fields_autoplaced yes)
 		(uuid "63c6ccb0-2dac-45a9-85af-a7ede67b8896")
 		(property "Reference" "#PWR01035"
-			(at 135.89 79.375 0)
+			(at 135.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5675,7 +5675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 77.4684 0)
+			(at 135.89 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 73.025 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 73.025 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,8 +5700,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5723,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 73.025 0)
+		(at 119.38 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5732,7 +5732,7 @@
 		(fields_autoplaced yes)
 		(uuid "6551cd44-3a04-47ec-8348-0f92154fad90")
 		(property "Reference" "#PWR01034"
-			(at 119.38 79.375 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5741,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 77.4684 0)
+			(at 119.38 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 73.025 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 73.025 0)
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,8 +5766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5789,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 168.91 85.725 0)
+		(at 168.91 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5798,7 +5798,7 @@
 		(fields_autoplaced yes)
 		(uuid "667c79ce-5e00-44e0-8d36-63fb2b50ac4f")
 		(property "Reference" "#PWR01047"
-			(at 168.91 89.535 0)
+			(at 168.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5807,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 168.91 82.1492 0)
+			(at 168.91 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 85.725 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5824,7 +5824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 85.725 0)
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,8 +5832,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5855,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 100.965 0)
+		(at 185.42 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5864,7 +5864,7 @@
 		(fields_autoplaced yes)
 		(uuid "6697ea60-0bc7-4ba5-abf3-cc03272b5a7e")
 		(property "Reference" "#PWR01058"
-			(at 185.42 107.315 0)
+			(at 185.42 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5873,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 105.4084 0)
+			(at 185.42 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +5881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 100.965 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +5890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 100.965 0)
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,8 +5898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 100.965 0)
+		(at 135.89 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5930,7 +5930,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a5ea84c-5c34-40f9-a978-dac8e2cf3319")
 		(property "Reference" "#PWR01055"
-			(at 135.89 107.315 0)
+			(at 135.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 105.4084 0)
+			(at 135.89 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 100.965 0)
+			(at 135.89 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 100.965 0)
+			(at 135.89 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,8 +5964,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,7 +6030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 45.72 0)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 218.44 85.725 0)
+		(at 218.44 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6165,7 +6165,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f0b6f62-7ad0-460b-8f34-77c41e1456ea")
 		(property "Reference" "#PWR01050"
-			(at 218.44 89.535 0)
+			(at 218.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6174,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 82.1492 0)
+			(at 218.44 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6182,7 +6182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 85.725 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +6191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 85.725 0)
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,8 +6199,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 218.44 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6222,7 +6222,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 100.965 0)
+		(at 86.36 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6231,7 +6231,7 @@
 		(fields_autoplaced yes)
 		(uuid "6feadbca-4d37-4692-a219-636d096f1638")
 		(property "Reference" "#PWR01052"
-			(at 86.36 107.315 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 105.4084 0)
+			(at 86.36 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 100.965 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6257,7 +6257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 100.965 0)
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,8 +6265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6288,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 102.87 147.955 0)
+		(at 102.87 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6296,7 +6296,7 @@
 		(dnp no)
 		(uuid "702d5b44-66ff-4d7e-88b6-bf401873f14d")
 		(property "Reference" "D1043"
-			(at 98.425 141.605 0)
+			(at 98.425 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6304,7 +6304,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 108.585 154.305 0)
+			(at 108.585 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +6313,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 104.14 155.575 0)
+			(at 104.14 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6323,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 105.41 157.48 0)
+			(at 105.41 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 147.955 0)
+			(at 102.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6342,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 102.87 147.955 0)
+			(at 102.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6351,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 102.87 147.955 0)
+			(at 102.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6360,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 102.87 147.955 0)
+			(at 102.87 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6494,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 155.575 0)
+		(at 251.46 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6503,7 +6503,7 @@
 		(fields_autoplaced yes)
 		(uuid "73023802-f790-4719-99a4-ce917373e70e")
 		(property "Reference" "#PWR01104"
-			(at 251.46 161.925 0)
+			(at 251.46 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,7 +6512,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 160.0184 0)
+			(at 251.46 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 155.575 0)
+			(at 251.46 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6529,7 +6529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 155.575 0)
+			(at 251.46 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,8 +6537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 251.46 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,7 +6560,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 201.93 93.345 0)
+		(at 201.93 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6568,7 +6568,7 @@
 		(dnp no)
 		(uuid "735b193e-7b99-426b-bdda-a0bb8a3f5af8")
 		(property "Reference" "D1029"
-			(at 197.485 86.995 0)
+			(at 197.485 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6576,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 207.645 99.695 0)
+			(at 207.645 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6585,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 203.2 100.965 0)
+			(at 203.2 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6595,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 204.47 102.87 0)
+			(at 204.47 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6605,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 93.345 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6614,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 201.93 93.345 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 201.93 93.345 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6632,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 201.93 93.345 0)
+			(at 201.93 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6663,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 135.89 85.725 0)
+		(at 135.89 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6672,7 +6672,7 @@
 		(fields_autoplaced yes)
 		(uuid "737d9b5d-edd9-4e4a-b88e-d42e6a5fba36")
 		(property "Reference" "#PWR01045"
-			(at 135.89 89.535 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6681,7 +6681,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 135.89 82.1492 0)
+			(at 135.89 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 85.725 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 85.725 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,8 +6706,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6729,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 185.42 57.785 0)
+		(at 185.42 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6738,7 +6738,7 @@
 		(fields_autoplaced yes)
 		(uuid "74f53a59-9731-4fd5-8f9b-d50c78175c7b")
 		(property "Reference" "#PWR01028"
-			(at 185.42 61.595 0)
+			(at 185.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6747,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 185.42 54.2092 0)
+			(at 185.42 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 57.785 0)
+			(at 185.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 57.785 0)
+			(at 185.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6772,8 +6772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 119.38 128.27 0)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 69.85 93.345 0)
+		(at 69.85 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6869,7 +6869,7 @@
 		(dnp no)
 		(uuid "775ed531-40b8-46ce-bd69-5545da444467")
 		(property "Reference" "D1021"
-			(at 65.405 86.995 0)
+			(at 65.405 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6877,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 75.565 99.695 0)
+			(at 75.565 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6886,7 +6886,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 71.12 100.965 0)
+			(at 71.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +6896,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 72.39 102.87 0)
+			(at 72.39 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 93.345 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6915,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 69.85 93.345 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +6924,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 69.85 93.345 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +6933,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 69.85 93.345 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -7030,7 +7030,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 155.575 0)
+		(at 201.93 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7039,7 +7039,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e2147c0-f0c0-4d52-865d-a3f964694014")
 		(property "Reference" "#PWR01101"
-			(at 201.93 161.925 0)
+			(at 201.93 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 160.0184 0)
+			(at 201.93 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 155.575 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7065,7 +7065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 155.575 0)
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,8 +7073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,7 +7172,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 218.44 140.335 0)
+		(at 218.44 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7181,7 +7181,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f7cf118-2378-48af-b016-27237b7cc944")
 		(property "Reference" "#PWR01090"
-			(at 218.44 144.145 0)
+			(at 218.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7190,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 136.7592 0)
+			(at 218.44 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7198,7 +7198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 140.335 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,7 +7207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 140.335 0)
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7215,8 +7215,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 218.44 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 201.93 30.48 0)
 			(effects
 				(font
@@ -7347,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 128.27 0)
 			(effects
 				(font
@@ -7370,7 +7370,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 140.335 0)
+		(at 102.87 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7379,7 +7379,7 @@
 		(fields_autoplaced yes)
 		(uuid "82b6f326-81e3-4061-8e83-f8b9e44f868e")
 		(property "Reference" "#PWR01083"
-			(at 102.87 144.145 0)
+			(at 102.87 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7388,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 102.87 136.7592 0)
+			(at 102.87 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 140.335 0)
+			(at 102.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 140.335 0)
+			(at 102.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,8 +7413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 152.4 65.405 0)
+		(at 152.4 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7444,7 +7444,7 @@
 		(dnp no)
 		(uuid "833644aa-8312-42d2-b380-ba70818ecdb7")
 		(property "Reference" "D1016"
-			(at 147.955 59.055 0)
+			(at 147.955 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +7452,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 158.115 71.755 0)
+			(at 158.115 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 153.67 73.025 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 154.94 74.93 0)
+			(at 154.94 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7481,7 +7481,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 65.405 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7490,7 +7490,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 152.4 65.405 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7499,7 +7499,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 152.4 65.405 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7508,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 152.4 65.405 0)
+			(at 152.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7539,7 +7539,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 100.965 0)
+		(at 201.93 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7548,7 +7548,7 @@
 		(fields_autoplaced yes)
 		(uuid "84922563-4746-4c96-9c9f-a718b29f36f6")
 		(property "Reference" "#PWR01059"
-			(at 201.93 107.315 0)
+			(at 201.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 105.4084 0)
+			(at 201.93 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 100.965 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 100.965 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,8 +7582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 45.72 0)
 			(effects
 				(font
@@ -7671,7 +7671,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 73.025 0)
+		(at 86.36 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7680,7 +7680,7 @@
 		(fields_autoplaced yes)
 		(uuid "86d5c4de-1ec7-4da3-be20-6c89189d6cff")
 		(property "Reference" "#PWR01032"
-			(at 86.36 79.375 0)
+			(at 86.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 77.4684 0)
+			(at 86.36 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7697,7 +7697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 73.025 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7706,7 +7706,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 73.025 0)
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,8 +7714,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +7737,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 155.575 0)
+		(at 152.4 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7746,7 +7746,7 @@
 		(fields_autoplaced yes)
 		(uuid "86ea2163-c312-4e6e-9663-ffe4b96e7f25")
 		(property "Reference" "#PWR01098"
-			(at 152.4 161.925 0)
+			(at 152.4 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7755,7 +7755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 160.0184 0)
+			(at 152.4 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 155.575 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7772,7 +7772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 155.575 0)
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,8 +7780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7949,7 +7949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 185.42 45.72 0)
 			(effects
 				(font
@@ -8015,7 +8015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 152.4 113.03 0)
 			(effects
 				(font
@@ -8081,7 +8081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 185.42 113.03 0)
 			(effects
 				(font
@@ -8147,7 +8147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 185.42 30.48 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 185.42 85.725 0)
+		(at 185.42 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8179,7 +8179,7 @@
 		(fields_autoplaced yes)
 		(uuid "9020109f-0fd9-4c82-afce-f2cf0b7516ff")
 		(property "Reference" "#PWR01048"
-			(at 185.42 89.535 0)
+			(at 185.42 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8188,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 185.42 82.1492 0)
+			(at 185.42 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 85.725 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 85.725 0)
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,8 +8213,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8236,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 119.38 147.955 0)
+		(at 119.38 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8244,7 +8244,7 @@
 		(dnp no)
 		(uuid "92e81f36-5404-47c3-9386-c9d6c0b2e3c9")
 		(property "Reference" "D1044"
-			(at 114.935 141.605 0)
+			(at 114.935 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8252,7 +8252,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 125.095 154.305 0)
+			(at 125.095 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8261,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 120.65 155.575 0)
+			(at 120.65 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +8271,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 121.92 157.48 0)
+			(at 121.92 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8281,7 +8281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 147.955 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8290,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 119.38 147.955 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8299,7 +8299,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 119.38 147.955 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8308,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 119.38 147.955 0)
+			(at 119.38 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8339,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 69.85 147.955 0)
+		(at 69.85 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8347,7 +8347,7 @@
 		(dnp no)
 		(uuid "943228bc-807a-45b0-9412-c106940722c9")
 		(property "Reference" "D1041"
-			(at 65.405 141.605 0)
+			(at 65.405 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8355,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 75.565 154.305 0)
+			(at 75.565 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8364,7 +8364,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 71.12 155.575 0)
+			(at 71.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8374,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 72.39 157.48 0)
+			(at 72.39 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 147.955 0)
+			(at 69.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8393,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 69.85 147.955 0)
+			(at 69.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 69.85 147.955 0)
+			(at 69.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8411,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 69.85 147.955 0)
+			(at 69.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 168.91 65.405 0)
+		(at 168.91 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8450,7 +8450,7 @@
 		(dnp no)
 		(uuid "9503692e-680a-469e-9737-36efbcfab275")
 		(property "Reference" "D1017"
-			(at 164.465 59.055 0)
+			(at 164.465 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8458,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 174.625 71.755 0)
+			(at 174.625 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8467,7 +8467,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 170.18 73.025 0)
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8477,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 171.45 74.93 0)
+			(at 171.45 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +8487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 65.405 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,7 +8496,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 168.91 65.405 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8505,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 168.91 65.405 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8514,7 +8514,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 168.91 65.405 0)
+			(at 168.91 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8545,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 135.89 93.345 0)
+		(at 135.89 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8553,7 +8553,7 @@
 		(dnp no)
 		(uuid "9526d798-8ac5-4172-992c-7fc33df80f9d")
 		(property "Reference" "D1025"
-			(at 131.445 86.995 0)
+			(at 131.445 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8561,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 141.605 99.695 0)
+			(at 141.605 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8570,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 137.16 100.965 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8580,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 138.43 102.87 0)
+			(at 138.43 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +8590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 93.345 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8599,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 135.89 93.345 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8608,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 135.89 93.345 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8617,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 135.89 93.345 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8648,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 135.89 65.405 0)
+		(at 135.89 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8656,7 +8656,7 @@
 		(dnp no)
 		(uuid "98b36246-d37b-4d9c-aee1-c61145825547")
 		(property "Reference" "D1015"
-			(at 131.445 59.055 0)
+			(at 131.445 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8664,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 141.605 71.755 0)
+			(at 141.605 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8673,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 137.16 73.025 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8683,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 138.43 74.93 0)
+			(at 138.43 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 65.405 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8702,7 +8702,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 135.89 65.405 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8711,7 +8711,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 135.89 65.405 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8720,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 135.89 65.405 0)
+			(at 135.89 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 86.36 30.48 0)
 			(effects
 				(font
@@ -8963,7 +8963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 128.27 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 218.44 113.03 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 102.87 57.785 0)
+		(at 102.87 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9061,7 +9061,7 @@
 		(fields_autoplaced yes)
 		(uuid "a020a6a4-7fce-4b80-a236-cb38d52e0648")
 		(property "Reference" "#PWR01023"
-			(at 102.87 61.595 0)
+			(at 102.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9070,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 102.87 54.2092 0)
+			(at 102.87 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 57.785 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 57.785 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,8 +9095,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +9264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -9287,7 +9287,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 85.725 0)
+		(at 119.38 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9296,7 +9296,7 @@
 		(fields_autoplaced yes)
 		(uuid "a68e3564-71aa-411a-9313-2023358bc65c")
 		(property "Reference" "#PWR01044"
-			(at 119.38 89.535 0)
+			(at 119.38 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9305,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 119.38 82.1492 0)
+			(at 119.38 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 85.725 0)
+			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 85.725 0)
+			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,8 +9330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 119.38 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9353,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 168.91 57.785 0)
+		(at 168.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9362,7 +9362,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9d42572-008b-4be8-a978-15800cba1d31")
 		(property "Reference" "#PWR01027"
-			(at 168.91 61.595 0)
+			(at 168.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,7 +9371,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 168.91 54.2092 0)
+			(at 168.91 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 57.785 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9388,7 +9388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 57.785 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,8 +9396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9419,7 +9419,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 218.44 57.785 0)
+		(at 218.44 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9428,7 +9428,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa3a41b9-7c52-454a-8fc8-7c4160946c81")
 		(property "Reference" "#PWR01030"
-			(at 218.44 61.595 0)
+			(at 218.44 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9437,7 +9437,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 218.44 54.2092 0)
+			(at 218.44 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9445,7 +9445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 57.785 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 57.785 0)
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9462,8 +9462,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 218.44 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9588,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 168.91 147.955 0)
+		(at 168.91 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9596,7 +9596,7 @@
 		(dnp no)
 		(uuid "ace15751-4511-4b47-8391-cd0f65cb6e19")
 		(property "Reference" "D1047"
-			(at 164.465 141.605 0)
+			(at 164.465 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9604,7 +9604,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 174.625 154.305 0)
+			(at 174.625 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9613,7 +9613,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 170.18 155.575 0)
+			(at 170.18 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 171.45 157.48 0)
+			(at 171.45 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,7 +9633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 147.955 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9642,7 +9642,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 168.91 147.955 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9651,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 168.91 147.955 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9660,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 168.91 147.955 0)
+			(at 168.91 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9691,7 +9691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 73.025 0)
+		(at 102.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9700,7 +9700,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae7dde69-aedc-4897-ac9d-d07c990a9ea1")
 		(property "Reference" "#PWR01033"
-			(at 102.87 79.375 0)
+			(at 102.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9709,7 +9709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 77.4684 0)
+			(at 102.87 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 73.025 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 73.025 0)
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,8 +9734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9757,7 +9757,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 185.42 93.345 0)
+		(at 185.42 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9765,7 +9765,7 @@
 		(dnp no)
 		(uuid "af21903b-7689-4031-ab31-333c41ffa1dd")
 		(property "Reference" "D1028"
-			(at 180.975 86.995 0)
+			(at 180.975 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9773,7 +9773,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 191.135 99.695 0)
+			(at 191.135 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9782,7 +9782,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 186.69 100.965 0)
+			(at 186.69 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9792,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 187.96 102.87 0)
+			(at 187.96 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9802,7 +9802,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 93.345 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +9811,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 185.42 93.345 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,7 +9820,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 185.42 93.345 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9829,7 +9829,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 185.42 93.345 0)
+			(at 185.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9903,7 +9903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 135.89 128.27 0)
 			(effects
 				(font
@@ -9926,7 +9926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 155.575 0)
+		(at 119.38 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9935,7 +9935,7 @@
 		(fields_autoplaced yes)
 		(uuid "b29bb731-de74-4ae5-82a2-5b681418ade3")
 		(property "Reference" "#PWR01096"
-			(at 119.38 161.925 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +9944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 160.0184 0)
+			(at 119.38 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 155.575 0)
+			(at 119.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 155.575 0)
+			(at 119.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,8 +9969,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10095,7 +10095,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 102.87 65.405 0)
+		(at 102.87 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10103,7 +10103,7 @@
 		(dnp no)
 		(uuid "b87b277e-b427-4dcd-a3a7-36e9773bd007")
 		(property "Reference" "D1013"
-			(at 98.425 59.055 0)
+			(at 98.425 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10111,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 108.585 71.755 0)
+			(at 108.585 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10120,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 104.14 73.025 0)
+			(at 104.14 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10130,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 105.41 74.93 0)
+			(at 105.41 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10140,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 65.405 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10149,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 102.87 65.405 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10158,7 +10158,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 102.87 65.405 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10167,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 102.87 65.405 0)
+			(at 102.87 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 73.025 0)
+		(at 201.93 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10310,7 +10310,7 @@
 		(fields_autoplaced yes)
 		(uuid "badb4834-29cc-4ca8-b179-4721e302b98a")
 		(property "Reference" "#PWR01039"
-			(at 201.93 79.375 0)
+			(at 201.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10319,7 +10319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 77.4684 0)
+			(at 201.93 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10327,7 +10327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 73.025 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 73.025 0)
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,8 +10344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10367,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 168.91 93.345 0)
+		(at 168.91 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10375,7 +10375,7 @@
 		(dnp no)
 		(uuid "bd4d3fa6-f307-4186-b0f0-2873c8d82a76")
 		(property "Reference" "D1027"
-			(at 164.465 86.995 0)
+			(at 164.465 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10383,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 174.625 99.695 0)
+			(at 174.625 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10392,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 170.18 100.965 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10402,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 171.45 102.87 0)
+			(at 171.45 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 93.345 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10421,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 168.91 93.345 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +10430,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 168.91 93.345 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10439,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 168.91 93.345 0)
+			(at 168.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10470,7 +10470,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 69.85 65.405 0)
+		(at 69.85 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10478,7 +10478,7 @@
 		(dnp no)
 		(uuid "c1fa7e41-0f3b-405f-b724-18fbb2c1114e")
 		(property "Reference" "D1011"
-			(at 65.405 59.055 0)
+			(at 65.405 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10486,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 75.565 71.755 0)
+			(at 75.565 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10495,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 71.12 73.025 0)
+			(at 71.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +10505,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 72.39 74.93 0)
+			(at 72.39 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10515,7 +10515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 65.405 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10524,7 +10524,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 69.85 65.405 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10533,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 69.85 65.405 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10542,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 69.85 65.405 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -10639,7 +10639,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 155.575 0)
+		(at 102.87 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10648,7 +10648,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6715eb8-5ac3-4f9f-9cb8-d7c7d318ea0f")
 		(property "Reference" "#PWR01095"
-			(at 102.87 161.925 0)
+			(at 102.87 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,7 +10657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 160.0184 0)
+			(at 102.87 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 155.575 0)
+			(at 102.87 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 155.575 0)
+			(at 102.87 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,8 +10682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10748,7 +10748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 168.91 113.03 0)
 			(effects
 				(font
@@ -10814,7 +10814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -10837,7 +10837,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 218.44 147.955 0)
+		(at 218.44 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10845,7 +10845,7 @@
 		(dnp no)
 		(uuid "ce209c97-80ac-40ee-bf57-a005cc8ac525")
 		(property "Reference" "D1050"
-			(at 213.995 141.605 0)
+			(at 213.995 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10853,7 +10853,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 224.155 154.305 0)
+			(at 224.155 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10862,7 +10862,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 219.71 155.575 0)
+			(at 219.71 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,7 +10872,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 220.98 157.48 0)
+			(at 220.98 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +10882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 147.955 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +10891,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 218.44 147.955 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +10900,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 218.44 147.955 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +10909,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 218.44 147.955 0)
+			(at 218.44 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +10940,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 234.95 140.335 0)
+		(at 234.95 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10949,7 +10949,7 @@
 		(fields_autoplaced yes)
 		(uuid "d03218da-0ef6-41a3-a5b8-643a8f30c94e")
 		(property "Reference" "#PWR01091"
-			(at 234.95 144.145 0)
+			(at 234.95 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10958,7 +10958,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 234.95 136.7592 0)
+			(at 234.95 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +10966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 140.335 0)
+			(at 234.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +10975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 140.335 0)
+			(at 234.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,8 +10983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 234.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 119.38 113.03 0)
 			(effects
 				(font
@@ -11115,7 +11115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 128.27 0)
 			(effects
 				(font
@@ -11138,7 +11138,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 135.89 140.335 0)
+		(at 135.89 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11147,7 +11147,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2dae76a-4fa8-43de-aea1-0aeff50fd566")
 		(property "Reference" "#PWR01085"
-			(at 135.89 144.145 0)
+			(at 135.89 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11156,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 135.89 136.7592 0)
+			(at 135.89 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 140.335 0)
+			(at 135.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11173,7 +11173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 140.335 0)
+			(at 135.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11181,8 +11181,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 135.89 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11204,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 73.025 0)
+		(at 152.4 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11213,7 +11213,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3c350c3-eeaa-4162-811e-7135edd612b2")
 		(property "Reference" "#PWR01036"
-			(at 152.4 79.375 0)
+			(at 152.4 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +11222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 77.4684 0)
+			(at 152.4 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,7 +11230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.025 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,7 +11239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.025 0)
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,8 +11247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 152.4 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11270,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 185.42 140.335 0)
+		(at 185.42 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11279,7 +11279,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5257759-ed77-4bbc-912b-c8edb0d01c0a")
 		(property "Reference" "#PWR01088"
-			(at 185.42 144.145 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11288,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 185.42 136.7592 0)
+			(at 185.42 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11296,7 +11296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 140.335 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11305,7 +11305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 140.335 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11313,8 +11313,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +11379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 45.72 0)
 			(effects
 				(font
@@ -11445,7 +11445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -11468,7 +11468,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 201.93 140.335 0)
+		(at 201.93 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11477,7 +11477,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9a68d1c-bcff-4d35-8159-4e8b8a742048")
 		(property "Reference" "#PWR01089"
-			(at 201.93 144.145 0)
+			(at 201.93 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11486,7 +11486,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 201.93 136.7592 0)
+			(at 201.93 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,7 +11494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 140.335 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +11503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 140.335 0)
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,8 +11511,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 201.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11534,7 +11534,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 86.36 93.345 0)
+		(at 86.36 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11542,7 +11542,7 @@
 		(dnp no)
 		(uuid "d9b2bd99-8af0-4072-8fe5-a9514b0c940c")
 		(property "Reference" "D1022"
-			(at 81.915 86.995 0)
+			(at 81.915 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +11550,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 92.075 99.695 0)
+			(at 92.075 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11559,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 87.63 100.965 0)
+			(at 87.63 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11569,7 +11569,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 88.9 102.87 0)
+			(at 88.9 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,7 +11579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 93.345 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11588,7 +11588,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 86.36 93.345 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +11597,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 86.36 93.345 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +11606,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 86.36 93.345 0)
+			(at 86.36 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,7 +11680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 218.44 30.48 0)
 			(effects
 				(font
@@ -11746,7 +11746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 168.91 30.48 0)
 			(effects
 				(font
@@ -11769,7 +11769,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 152.4 57.785 0)
+		(at 152.4 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11778,7 +11778,7 @@
 		(fields_autoplaced yes)
 		(uuid "de6814a2-04e5-4efb-aec0-f317c226d03c")
 		(property "Reference" "#PWR01026"
-			(at 152.4 61.595 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,7 +11787,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 152.4 54.2092 0)
+			(at 152.4 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +11795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 57.785 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +11804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 57.785 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11812,8 +11812,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 128.27 0)
 			(effects
 				(font
@@ -12004,7 +12004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 100.965 0)
+		(at 102.87 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12013,7 +12013,7 @@
 		(fields_autoplaced yes)
 		(uuid "e09318aa-9634-45b1-9226-327a9e3e33c1")
 		(property "Reference" "#PWR01053"
-			(at 102.87 107.315 0)
+			(at 102.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12022,7 +12022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 105.4084 0)
+			(at 102.87 106.0434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 100.965 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +12039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 100.965 0)
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12047,8 +12047,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 100.965 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 201.93 113.03 0)
 			(effects
 				(font
@@ -12179,7 +12179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 86.36 113.03 0)
 			(effects
 				(font
@@ -12202,7 +12202,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 69.85 140.335 0)
+		(at 69.85 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12211,7 +12211,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2eba6d0-73d9-444a-9812-fc161e62264d")
 		(property "Reference" "#PWR01081"
-			(at 69.85 144.145 0)
+			(at 69.85 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12220,7 +12220,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 69.85 136.7592 0)
+			(at 69.85 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +12228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 140.335 0)
+			(at 69.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12237,7 +12237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 140.335 0)
+			(at 69.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,8 +12245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12311,7 +12311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -12334,7 +12334,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 86.36 147.955 0)
+		(at 86.36 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12342,7 +12342,7 @@
 		(dnp no)
 		(uuid "e4b33556-455f-47df-8a5b-f12e016f7ddc")
 		(property "Reference" "D1042"
-			(at 81.915 141.605 0)
+			(at 81.915 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,7 +12350,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 92.075 154.305 0)
+			(at 92.075 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12359,7 +12359,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 87.63 155.575 0)
+			(at 87.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12369,7 +12369,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 88.9 157.48 0)
+			(at 88.9 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12379,7 +12379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 147.955 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12388,7 +12388,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 86.36 147.955 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12397,7 +12397,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 86.36 147.955 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12406,7 +12406,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 86.36 147.955 0)
+			(at 86.36 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12437,7 +12437,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 73.025 0)
+		(at 69.85 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12446,7 +12446,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6022227-9bd3-4028-b3fa-ac11ba038cc0")
 		(property "Reference" "#PWR01031"
-			(at 69.85 79.375 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,7 +12455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 77.4684 0)
+			(at 69.85 78.1034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12463,7 +12463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 73.025 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12472,7 +12472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 73.025 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12480,8 +12480,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 73.025 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12546,7 +12546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 128.27 0)
 			(effects
 				(font
@@ -12569,7 +12569,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 57.785 0)
+		(at 119.38 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12578,7 +12578,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7fc6d5a-36e5-4b85-9650-9937af15b29e")
 		(property "Reference" "#PWR01024"
-			(at 119.38 61.595 0)
+			(at 119.38 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12587,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 119.38 54.2092 0)
+			(at 119.38 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 57.785 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12604,7 +12604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 57.785 0)
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,8 +12612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 119.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12635,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 155.575 0)
+		(at 135.89 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12644,7 +12644,7 @@
 		(fields_autoplaced yes)
 		(uuid "e915a3bc-e6bd-4b92-afe9-2275acb2d218")
 		(property "Reference" "#PWR01097"
-			(at 135.89 161.925 0)
+			(at 135.89 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,7 +12653,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 160.0184 0)
+			(at 135.89 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12661,7 +12661,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 155.575 0)
+			(at 135.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 155.575 0)
+			(at 135.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,8 +12678,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12804,7 +12804,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 69.85 57.785 0)
+		(at 69.85 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12813,7 +12813,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaeb638f-ca98-4091-95cb-9ab486793c6c")
 		(property "Reference" "#PWR01021"
-			(at 69.85 61.595 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12822,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 69.85 54.2092 0)
+			(at 69.85 54.8442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12830,7 +12830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 57.785 0)
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12839,7 +12839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 57.785 0)
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,8 +12847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 57.785 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +12973,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 201.93 85.725 0)
+		(at 201.93 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12982,7 +12982,7 @@
 		(fields_autoplaced yes)
 		(uuid "f01c010d-47e9-4809-8f0a-f18552f6ab71")
 		(property "Reference" "#PWR01049"
-			(at 201.93 89.535 0)
+			(at 201.93 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +12991,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 201.93 82.1492 0)
+			(at 201.93 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +12999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 85.725 0)
+			(at 201.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +13008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 85.725 0)
+			(at 201.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,8 +13016,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 201.93 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 201.93 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13142,7 +13142,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.36 140.335 0)
+		(at 86.36 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13151,7 +13151,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4a6e01c-2ed8-4be9-ba24-02d3ab90c66c")
 		(property "Reference" "#PWR01082"
-			(at 86.36 144.145 0)
+			(at 86.36 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13160,7 +13160,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 86.36 136.7592 0)
+			(at 86.36 137.3942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,7 +13168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 140.335 0)
+			(at 86.36 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13177,7 +13177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 140.335 0)
+			(at 86.36 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13185,8 +13185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 140.335 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 86.36 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13208,7 +13208,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 102.87 93.345 0)
+		(at 102.87 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13216,7 +13216,7 @@
 		(dnp no)
 		(uuid "fa627056-ee3a-4fa1-859f-8d89e1fc2c32")
 		(property "Reference" "D1023"
-			(at 98.425 86.995 0)
+			(at 98.425 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +13224,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 108.585 99.695 0)
+			(at 108.585 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13233,7 +13233,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:LED_WS2812B_edited"
-			(at 104.14 100.965 0)
+			(at 104.14 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13243,7 +13243,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 105.41 102.87 0)
+			(at 105.41 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 93.345 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13262,7 +13262,7 @@
 			)
 		)
 		(property "Ostalo" "forma"
-			(at 102.87 93.345 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13271,7 +13271,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 102.87 93.345 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13280,7 +13280,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "-"
-			(at 102.87 93.345 0)
+			(at 102.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13311,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 155.575 0)
+		(at 168.91 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13320,7 +13320,7 @@
 		(fields_autoplaced yes)
 		(uuid "fab44563-2a05-4636-a937-7c0f7c1568ef")
 		(property "Reference" "#PWR01099"
-			(at 168.91 161.925 0)
+			(at 168.91 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,7 +13329,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 160.0184 0)
+			(at 168.91 160.6534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13337,7 +13337,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 155.575 0)
+			(at 168.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13346,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 155.575 0)
+			(at 168.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13354,8 +13354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 155.575 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13377,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 152.4 85.725 0)
+		(at 152.4 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13386,7 +13386,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc5aebc1-633c-497f-99b2-2e736332bbcb")
 		(property "Reference" "#PWR01046"
-			(at 152.4 89.535 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13395,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 152.4 82.1492 0)
+			(at 152.4 82.7842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 85.725 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 85.725 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13420,8 +13420,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 85.725 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13486,7 +13486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 69.85 45.72 0)
 			(effects
 				(font
@@ -13552,7 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 102.87 113.03 0)
 			(effects
 				(font
