@@ -1,4 +1,4 @@
-23860374511569227
+23862103445645354
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56921,8 +56921,8 @@ GC9A01
 
 
 0
-0
-0
+8
+8
 Footprints
 Inductor_4mm(5x5mm pads)
 
@@ -56944,6 +56944,13 @@ LED RGB NeoPixel
 0
 4
 4
+Footprints
+OLED 1.3inch
+
+
+0
+0
+0
 Footprints
 PinHeader_1x01
 Through hole straight pin header, 1x01, 2.54mm pitch, single row

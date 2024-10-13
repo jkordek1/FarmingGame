@@ -1303,7 +1303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:OLED 1.3inch"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -1444,7 +1444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:OLED 1.3inch"
 			(at 123.19 111.76 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:OLED 1.3inch"
 			(at 153.67 111.76 0)
 			(effects
 				(font
@@ -1594,7 +1594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Footprints:OLED 1.3inch"
 			(at 168.91 111.76 0)
 			(effects
 				(font
