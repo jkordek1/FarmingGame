@@ -241,15 +241,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|1041400|939800|9033882c-6014-47fe-a935-6c2085690220|20e9571d-f43a-49a5-b6c9-027220e42e58|/9f66d68b-38d2-4517-8629-387431399ae9/9f75b5b4-7777-400e-8ace-a7801c4aefc0|/9f66d68b-38d2-4517-8629-387431399ae9/9f75b5b4-7777-400e-8ace-a7801c4aefc0|/9f66d68b-38d2-4517-8629-387431399ae9/9f75b5b4-7777-400e-8ace-a7801c4aefc0",
-      "multiple_net_names|1587500|927100|c5eb523b-6e75-412c-b6a7-fbc39c40f330|c36cf5b2-5769-47c7-baac-6b516c7d000c|/9f66d68b-38d2-4517-8629-387431399ae9/bfec7ff5-12b5-4af9-9131-b19e09596ace|/9f66d68b-38d2-4517-8629-387431399ae9/bfec7ff5-12b5-4af9-9131-b19e09596ace|/9f66d68b-38d2-4517-8629-387431399ae9/bfec7ff5-12b5-4af9-9131-b19e09596ace",
-      "multiple_net_names|317500|660400|d6186908-5a8f-44cd-ab22-a5821cb1de09|20e03221-776a-4592-b72c-0332935209c5|/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd|/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd|/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd",
-      "multiple_net_names|787400|711200|22c9d9a3-b4ae-4ff5-a15c-8b913d24655b|f6748a6e-0bfc-40a4-a0ea-53bd80d6a705|/9f66d68b-38d2-4517-8629-387431399ae9/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70|/9f66d68b-38d2-4517-8629-387431399ae9/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70|/9f66d68b-38d2-4517-8629-387431399ae9/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70",
-      "power_pin_not_driven|1917700|558800|139767c9-6a46-485d-bf4c-9d0d56072f4e|00000000-0000-0000-0000-000000000000|/9f66d68b-38d2-4517-8629-387431399ae9/137cdba1-cde3-4c49-b42e-e13f2be356c7|/9f66d68b-38d2-4517-8629-387431399ae9/137cdba1-cde3-4c49-b42e-e13f2be356c7|",
-      "power_pin_not_driven|2209800|812800|3163a928-36c7-4a69-9120-44152e24ac4d|00000000-0000-0000-0000-000000000000|/9f66d68b-38d2-4517-8629-387431399ae9/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1|/9f66d68b-38d2-4517-8629-387431399ae9/ac94f7cf-c7fc-4258-a4c8-af0c3ef6d0a1|",
-      "power_pin_not_driven|825500|774700|c3c04144-5ad8-447c-8fae-a43b55c4725d|00000000-0000-0000-0000-000000000000|/9f66d68b-38d2-4517-8629-387431399ae9/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70|/9f66d68b-38d2-4517-8629-387431399ae9/4ee94e79-8f79-4d3c-86ca-8e64aae4ab70|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -560,11 +552,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Aliexpress",
+          "name": "Aliexpress",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Basic/Extended",
+          "name": "Basic/Extended",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ostalo",
+          "name": "Ostalo",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "U labosu?",
+          "name": "U labosu?",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
