@@ -2565,7 +2565,7 @@
 		(uuid "00fa1476-5623-41af-a6f3-c2107a677b22")
 	)
 	(junction
-		(at 262.89 80.01)
+		(at 196.85 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "041e99c0-b316-4db0-b39e-661f75333b22")
@@ -2575,12 +2575,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3104a061-6654-454f-a450-285194b4a851")
-	)
-	(junction
-		(at 251.46 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38eb6634-8ff4-4584-befc-50c44116f233")
 	)
 	(junction
 		(at 83.82 85.09)
@@ -2593,6 +2587,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b70ebec8-94f2-4c1e-9502-8dca3eca36a8")
+	)
+	(junction
+		(at 208.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb004235-d0f1-4276-8f5b-c04ce745a4d2")
 	)
 	(no_connect
 		(at 30.48 107.95)
@@ -2628,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 87.63) (xy 251.46 86.36)
+			(xy 208.28 85.09) (xy 208.28 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2648,23 +2648,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 80.01) (xy 262.89 80.01)
+			(xy 208.28 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0cf37a04-f383-443b-a75a-4413ee6a609c")
-	)
-	(wire
-		(pts
-			(xy 200.66 80.01) (xy 220.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4d03ae-31a4-44c8-9985-261e21594b48")
 	)
 	(wire
 		(pts
@@ -2698,6 +2688,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 81.28) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ef7089-21af-4652-a6d7-2bada40f7bdb")
+	)
+	(wire
+		(pts
 			(xy 80.01 85.09) (xy 83.82 85.09)
 		)
 		(stroke
@@ -2715,6 +2715,16 @@
 			(type default)
 		)
 		(uuid "3b05c595-d8b7-4e40-b1f9-5c8f6b1e2bc8")
+	)
+	(wire
+		(pts
+			(xy 220.98 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7a85d4-dfa2-4b3f-af5c-dbcc1970305f")
 	)
 	(wire
 		(pts
@@ -2758,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 78.74) (xy 262.89 80.01)
+			(xy 196.85 76.2) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 87.63) (xy 200.66 86.36)
+			(xy 251.46 85.09) (xy 251.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2798,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 81.28) (xy 223.52 80.01)
+			(xy 223.52 77.47) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 86.36) (xy 262.89 87.63)
+			(xy 196.85 83.82) (xy 196.85 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2838,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 80.01) (xy 251.46 80.01)
+			(xy 223.52 77.47) (xy 251.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2848,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 81.28) (xy 200.66 80.01)
+			(xy 251.46 78.74) (xy 251.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2928,7 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 80.01) (xy 262.89 81.28)
+			(xy 196.85 77.47) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2978,7 +2988,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 80.01) (xy 251.46 81.28)
+			(xy 208.28 77.47) (xy 208.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3035,16 +3045,6 @@
 			(type default)
 		)
 		(uuid "ea33f39e-e86c-4865-9aec-781310ad22ac")
-	)
-	(wire
-		(pts
-			(xy 220.98 81.28) (xy 220.98 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eafb22a1-e29c-40b5-8431-5d464bcff771")
 	)
 	(wire
 		(pts
@@ -3687,7 +3687,8 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 262.89 78.74 0)
+		(at 196.85 76.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3695,7 +3696,7 @@
 		(dnp no)
 		(uuid "0166faef-10aa-4c61-ac34-0cb875a6d754")
 		(property "Reference" "#PWR0202"
-			(at 262.89 82.55 0)
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3705,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 263.271 74.3458 0)
+			(at 196.469 71.8058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 78.74 0)
+			(at 196.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 78.74 0)
+			(at 196.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3731,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 262.89 78.74 0)
+			(at 196.85 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,7 +3753,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 87.63 0)
+		(at 196.85 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +3762,7 @@
 		(dnp no)
 		(uuid "11ed00cd-6236-4be7-be6d-3a9db11b5b47")
 		(property "Reference" "#PWR0206"
-			(at 262.89 93.98 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3771,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 263.017 92.0242 0)
+			(at 196.723 89.4842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 87.63 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 87.63 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 87.63 0)
+			(at 196.85 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3819,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 87.63 0)
+		(at 208.28 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3825,7 +3828,7 @@
 		(dnp no)
 		(uuid "200e3399-b191-4efb-b315-67bcba5692d7")
 		(property "Reference" "#PWR0205"
-			(at 251.46 93.98 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.587 92.0242 0)
+			(at 208.153 89.4842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +3845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 87.63 0)
+			(at 208.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +3854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 87.63 0)
+			(at 208.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +3863,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 87.63 0)
+			(at 208.28 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +3885,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 251.46 83.82 0)
+		(at 208.28 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3890,7 +3894,7 @@
 		(dnp no)
 		(uuid "2085f65c-6819-4116-8be5-2a4353c3d2dc")
 		(property "Reference" "C202"
-			(at 253.7968 82.6516 0)
+			(at 205.9432 80.1116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3903,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 253.7968 84.963 0)
+			(at 205.9432 82.423 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +3912,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3939,7 @@
 			)
 		)
 		(property "Basic/Extended" "Basic"
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3948,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C113803"
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3957,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 251.46 83.82 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4190,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 200.66 83.82 0)
+		(at 251.46 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4194,7 +4199,7 @@
 		(dnp no)
 		(uuid "510a8aa0-9853-4d59-92da-cbd2cd9f9f7a")
 		(property "Reference" "C201"
-			(at 202.9968 82.6516 0)
+			(at 249.1232 80.1116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4208,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 202.9968 84.963 0)
+			(at 249.1232 82.423 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4217,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 200.66 83.82 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 83.82 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 83.82 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4244,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 200.66 83.82 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4253,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C113803"
-			(at 200.66 83.82 0)
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4696,7 +4701,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 262.89 83.82 0)
+		(at 196.85 81.28 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4705,7 +4711,7 @@
 		(fields_autoplaced yes)
 		(uuid "acce6afc-1067-470d-8a26-4637f4128323")
 		(property "Reference" "C203"
-			(at 265.049 82.4392 0)
+			(at 194.691 79.8992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4720,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 265.049 84.9761 0)
+			(at 194.691 82.4361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4729,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 262.89 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 262.89 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4756,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C2798040"
-			(at 262.89 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4765,7 @@
 			)
 		)
 		(property "U labosu?" "ne"
-			(at 262.89 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5343,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 87.63 0)
+		(at 251.46 85.09 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5345,7 +5352,7 @@
 		(dnp no)
 		(uuid "fbe0a7dc-5efc-423e-9343-5cbacb35a2c1")
 		(property "Reference" "#PWR0204"
-			(at 200.66 93.98 0)
+			(at 251.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.787 92.0242 0)
+			(at 251.333 89.4842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 87.63 0)
+			(at 251.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +5378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 87.63 0)
+			(at 251.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 87.63 0)
+			(at 251.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
