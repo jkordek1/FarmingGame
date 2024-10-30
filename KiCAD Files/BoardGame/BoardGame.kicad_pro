@@ -189,6 +189,7 @@
         0.3,
         0.3556,
         0.508,
+        0.8,
         1.016
       ],
       "tuning_pattern_settings": {
@@ -482,7 +483,9 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 255, 194)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
