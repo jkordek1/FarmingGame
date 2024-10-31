@@ -150,36 +150,6 @@
 		(uuid "eff7e16c-1da3-4c41-a9db-0072b801ed66")
 	)
 	(fp_line
-		(start -9.75 10.5)
-		(end -9.75 -9.3)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "d00985b2-6c14-4619-b8b8-486c0c75da59")
-	)
-	(fp_line
-		(start -9.75 10.5)
-		(end 9.75 10.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "6aa6a9e5-cd19-49b4-8f5e-bf207bc463ec")
-	)
-	(fp_line
-		(start 9.75 -9.3)
-		(end 9.75 10.5)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "864281eb-91e0-4963-9971-931ccb927cb9")
-	)
-	(fp_line
 		(start -9 -15.74)
 		(end -9 -10.05)
 		(stroke

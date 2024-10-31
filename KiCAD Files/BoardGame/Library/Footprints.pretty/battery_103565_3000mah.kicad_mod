@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(fill none)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "8e639bc6-b911-42f8-9afd-0dd5e2913300")
 	)
 	(fp_text user "${REFERENCE}"
@@ -102,5 +102,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "f61f183a-771b-4eaa-ad88-7332ece974b8")
+	)
+	(model "${KIPRJMOD}/3D Models/BAT.step"
+		(offset
+			(xyz 0 4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
 	)
 )

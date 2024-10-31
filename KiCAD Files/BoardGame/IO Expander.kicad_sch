@@ -400,128 +400,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Symbols:PCF8575"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1236,18 +1114,6 @@
 			)
 		)
 	)
-	(junction
-		(at 69.85 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e33ae46-038d-4a75-8e82-f357aaf51c98")
-	)
-	(junction
-		(at 62.23 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d44637a-96f6-4efb-9134-7b27cc49d0a6")
-	)
 	(no_connect
 		(at 76.2 87.63)
 		(uuid "09306712-42a2-4a52-b566-deb584773288")
@@ -1275,16 +1141,6 @@
 	(no_connect
 		(at 96.52 100.33)
 		(uuid "f0e21c21-d5f4-4b6e-bf9c-8b78a163d701")
-	)
-	(wire
-		(pts
-			(xy 59.69 105.41) (xy 62.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0807e75a-e144-4da4-9a98-c85350ec5251")
 	)
 	(wire
 		(pts
@@ -1338,16 +1194,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 99.06) (xy 62.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365962d5-267d-4d85-bb6a-7f9b60848231")
-	)
-	(wire
-		(pts
 			(xy 152.4 57.15) (xy 152.4 59.69)
 		)
 		(stroke
@@ -1368,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 107.95) (xy 69.85 107.95)
+			(xy 73.66 107.95) (xy 76.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1418,17 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 99.06) (xy 69.85 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a94b70-2758-49d2-a2ec-8b2e06993688")
-	)
-	(wire
-		(pts
-			(xy 62.23 105.41) (xy 76.2 105.41)
+			(xy 73.66 105.41) (xy 76.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1505,16 +1341,6 @@
 			(type default)
 		)
 		(uuid "c791845a-8f0a-4915-aa87-272bffd43de0")
-	)
-	(wire
-		(pts
-			(xy 69.85 107.95) (xy 76.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c967d958-d764-4d20-a388-cf8eaf786048")
 	)
 	(wire
 		(pts
@@ -2154,7 +1980,7 @@
 	)
 	(hierarchical_label "SDA0"
 		(shape bidirectional)
-		(at 59.69 107.95 180)
+		(at 73.66 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2166,7 +1992,7 @@
 	)
 	(hierarchical_label "SCL0"
 		(shape input)
-		(at 59.69 105.41 180)
+		(at 73.66 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2453,93 +2279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 62.23 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27e798af-8e1c-4d0e-abf4-a4b6b24d61a7")
-		(property "Reference" "R401"
-			(at 63.5 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 63.5 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C114662"
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "U labosu?" "ne"
-			(at 62.23 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d5ad418-6035-412d-976c-c34ad91a0972")
-		)
-		(pin "2"
-			(uuid "3a55ff18-f2e0-4616-b589-4a24fdb25eea")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 166.37 77.47 0)
 		(mirror x)
@@ -2643,72 +2382,6 @@
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
 					(reference "J402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 69.85 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a75bd75-7a45-4231-a8ee-94bb5913e73e")
-		(property "Reference" "#PWR01111"
-			(at 69.85 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 69.85 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 69.85 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8db3a1a8-cb15-4b00-9acd-3f2a46719401")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
-					(reference "#PWR01111")
 					(unit 1)
 				)
 			)
@@ -3148,93 +2821,6 @@
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
 					(reference "#PWR0418")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 69.85 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7de17caa-a8a4-4f02-9b81-040614cf3637")
-		(property "Reference" "R402"
-			(at 71.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C114662"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "U labosu?" "ne"
-			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8191e3b2-766d-4d6d-b545-87e9dae2c85e")
-		)
-		(pin "2"
-			(uuid "d47ba7cd-8430-4b7f-b816-0ac32eac8059")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
-					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -3818,72 +3404,6 @@
 			(project "BoardGame"
 				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
 					(reference "#PWR01119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 62.23 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba61bb33-0ab1-4a6b-af4a-1c2f0b7b5189")
-		(property "Reference" "#PWR01112"
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 62.23 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f601f58-b054-441a-a0df-d0358191e010")
-		)
-		(instances
-			(project "BoardGame"
-				(path "/9f66d68b-38d2-4517-8629-387431399ae9/defa6cf4-007a-48e8-ac65-029b900cd1cd"
-					(reference "#PWR01112")
 					(unit 1)
 				)
 			)

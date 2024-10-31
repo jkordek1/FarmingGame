@@ -415,9 +415,9 @@
 		)
 		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
 	)
-	(text "TO-DO:\n- dodati 3D model baterije, debljina je 6mm\n- centrirati MCU na sredinu pločice\n- pomaknuti bateriju na bolju poziciju\n- provjeriti poziciju buzzera\n- premjestiti pinove da bolje odgovaraju layoutu (testirati na breadboardu)\n- provjeriti jel sve električki točno spojeno (isprintati i proći kroz sve)\n- Nacrtati footprinte koji nedostaju (zasloni) - detaljno provjeriti dimenzije\n- dodijeliti footprinte\n- Fixati 3D Modele koji nedostaju na footprintima\n- TME BOM sastaviti\n\nLayout:\n- bolje razmjestiti rupe da ne zijeva kučište"
+	(text "TO-DO:\n- provjeriti odgovaraju li dimenzije svih zaslona\n- provjeriti jel sve električki točno spojeno (isprintati i proći kroz sve)\n- Nacrtati footprinte koji nedostaju (zasloni) - detaljno provjeriti dimenzije\n- dodijeliti footprinte\n- Fixati 3D Modele koji nedostaju na footprintima\n- TME BOM sastaviti\n\nLayout:\n- bolje razmjestiti rupe da ne zijeva kučište"
 		(exclude_from_sim no)
-		(at 16.002 184.658 0)
+		(at 16.002 180.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
