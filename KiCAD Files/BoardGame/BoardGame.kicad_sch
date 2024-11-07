@@ -415,7 +415,7 @@
 		)
 		(uuid "605333e4-c280-4da8-a56f-43ed39e2f449")
 	)
-	(text "TO-DO:\n- provjeriti jel sve električki točno spojeno (isprintati i proći kroz sve)\n- Fixati 3D Modele koji nedostaju na footprintima\n- Assembly svega + nova gornja površina tematski ukrašena\n- TME BOM sastaviti\n- pored ovoga, na izradu poslati još i CNLJS (ploča + kockica + TP)\n\nLayout:\n- bolje razmjestiti rupe da ne zijeva kučište"
+	(text "TO-DO:\n- Assembly svega + nova gornja površina tematski ukrašena"
 		(exclude_from_sim no)
 		(at 16.002 180.848 0)
 		(effects
