@@ -1,7 +1,7 @@
 (footprint "LOLIN32"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bab43946-5e9a-49f1-9729-931c6e1242fe")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 30 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "87ff6c11-0a5d-49da-8342-b25f132955da")
 		(effects
 			(font
 				(size 1 1)
@@ -84,7 +71,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "bae33161-ecc9-461d-a8b5-b361e2188907")
 	)
@@ -99,20 +86,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -10.915 -26.74)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "e26ef923-792a-40b4-a98d-c2fdee36130b")
-	)
-	(pad "" np_thru_hole circle
-		(at 10.915 -26.74)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "88f97b74-4e22-43ef-9125-226f4a1fb571")
 	)
 	(pad "1" thru_hole circle
 		(at -11.55 -21.24)
@@ -402,6 +375,7 @@
 		(remove_unused_layers no)
 		(uuid "cb3f983c-5a8c-44d7-9003-c65e4c65ca81")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/3DMODELS/Lolin32+V1.0.0 v2.step"
 		(offset
 			(xyz 12.7 -29.8 0)
