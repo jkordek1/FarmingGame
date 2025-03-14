@@ -11,12 +11,11 @@
   <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
-The idea was to make a 2-4 players electronic board game that binds STEM field with agriculture. It was funded throught Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
+This is a farming themed electronic board game. You plant crops on empty fields and earn points by harvesting the crops. The weather isn't always optimal for the crops and they don't grow as much. Your job is to develop the strategy for earning as many points as you can in a number of turnes.
 
-More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
 ## Project idea
-Idea of the project is to create an electronic version of the game to help promoting STEM education (and to have some fun of course).
+The idea was to make a 2-4 players electronic board game that binds STEM field with agriculture. It was funded throught Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
 
 ## Project status
 - [x] Breadboard prototype
