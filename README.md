@@ -11,6 +11,8 @@
   <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
+The idea was to make a 2-4 players electronic board game that binds STEM field with agriculture. It was funded throught Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
+
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
 ## Project idea
