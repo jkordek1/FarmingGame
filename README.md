@@ -11,7 +11,7 @@
   <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
-This is a farming themed electronic board game. You plant crops on empty fields and earn points by harvesting the crops. The weather isn't always optimal for the crops and they don't grow as much. Your job is to develop the strategy for earning as many points as you can in a number of turnes.
+This is a farming themed electronic board game. You plant crops on fields and earn points by harvesting them when they are fully grown. The weather isn't always optimal for the crops and they don't grow as much. Your job is to develop the strategy for earning as many points as you can in a number of turns. Every crop needs a different number of turns to be fully grown and therefore it awards you with different number of points.
 
 
 ## Project idea
