@@ -33,14 +33,15 @@ Idea of the project is to create an electronic version of the game to help promo
 - 4x SSD1306 0.96" OLED displays
 - 1x GC9A01 IPS circular display
 
-## Images
+## 3D renders
 <p align="center">
   <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Full2.png?token=GHSAT0AAAAAADAQO5WRSFD4EZ2NXNY4VVBMZ6UGODQ">
 </p>
 <p align="center">
  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Animation.gif?token=GHSAT0AAAAAADAQO5WQXRZWHWDRE5YH4S3AZ6UGQCQ">
 </p>
-## 3D renders
+
+## Images
 <img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
 
 ## PCBs
