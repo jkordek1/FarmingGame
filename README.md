@@ -36,7 +36,7 @@ Idea of the project is to create an electronic version of the game to help promo
 
 ## 3D renders
 <p align="center">
-  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Full2.png?token=GHSAT0AAAAAADAQO5WRSFD4EZ2NXNY4VVBMZ6UGODQ">
+  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Full2.png?raw=true">
 </p>
 <p align="center">
  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Animation.gif?token=GHSAT0AAAAAADAQO5WQXRZWHWDRE5YH4S3AZ6UGQCQ">
