@@ -7,8 +7,9 @@
 
 ## About
 
-Mensch Ă¤rgere Dich nicht (English: Man, Don't Get Angry) is a German board game developed by Josef Friedrich Schmidt in 1907/1908.
-The name derives from the fact that a peg is sent back to the "out" field when another peg lands on it, similar to the later game Sorry!.
+<p align="center">
+  <img width="1000" src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
+</p>
 
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
 
