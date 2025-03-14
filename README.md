@@ -8,7 +8,7 @@
 ## About
 
 <p align="center">
-  <img width="1000" src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
+  <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
 More information about the game can be found at the [wiki page](https://en.wikipedia.org/wiki/Mensch_%C3%A4rgere_Dich_nicht).
