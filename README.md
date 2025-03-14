@@ -35,7 +35,7 @@ Idea of the project is to create an electronic version of the game to help promo
 
 ## Images
 <p align="center">
-  <img width="500" src="https://raw.githubusercontent.com/jkordek1/Man-Don-t-Get-Angry-Board-game/main/Images/front1.jpg">
+  <img width="500" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/main/Images/Full1.png">
 </p>
 
 ## 3D renders
