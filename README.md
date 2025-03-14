@@ -38,7 +38,7 @@ Idea of the project is to create an electronic version of the game to help promo
   <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Full2.png?token=GHSAT0AAAAAADAQO5WRSFD4EZ2NXNY4VVBMZ6UGODQ">
 </p>
 
- ![LED_Cube_5x5x5](https://user-images.githubusercontent.com/5957510/135715141-74fe0d92-35b2-4714-acf2-75ce838784e9.gif)
+ ![LED_Cube_5x5x5](https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Animation.gif?token=GHSAT0AAAAAADAQO5WQXRZWHWDRE5YH4S3AZ6UGQCQ)
 
 ## 3D renders
 <img src="https://raw.githubusercontent.com/jkordek1/CNLJS/main/Images/BoardGameV1.png" width="1000"/>
