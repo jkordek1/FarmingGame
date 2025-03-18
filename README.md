@@ -37,10 +37,10 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 
 ## 3D renders
 <p align="center">
-  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Full2.png?raw=true">
+  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/blob/main/Images/Full2.png?raw=true">
 </p>
 <p align="center">
- <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/refs/heads/main/Images/Animation.gif?raw=true">
+ <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/blob/main/Images/Animation.gif?raw=true">
 </p>
 
 ## Images
