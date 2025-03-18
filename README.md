@@ -25,6 +25,7 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 - [x] 3D CAD assembly and renders
 - [x] Assembly
 - [x] Programming
+- [ ] Final testing phase
 
 ## Issues
 - Hardware is completely functional but software could use some extra work
