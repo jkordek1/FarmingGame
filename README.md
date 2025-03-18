@@ -36,12 +36,9 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 - 1x GC9A01 IPS circular display
 
 ## 3D renders
-<p align="center">
-  <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/blob/main/Images/Full2.png?raw=true">
-</p>
-<p align="center">
- <img width="1000" src="https://raw.githubusercontent.com/jkordek1/FarmingGame/blob/main/Images/Animation.gif?raw=true">
-</p>
+![Full1](https://github.com/user-attachments/assets/fab94822-5d9b-4d8f-8514-ddaf97034429)
+
+
 
 ## Images
 
