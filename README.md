@@ -51,7 +51,7 @@ The winner is a player with most points scored after a number of turns.
 
 ## Issues
 - Hardware is completely functional, software could use some extra work
-- Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green. This was fixed by adding a dummy LED which is not used. The rest of the LEDs are working as intended.
+- Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green. This was fixed by adding a dummy LED which is not used
 
 ## Hardware
 - Based on popular LOLIN32 ESP32 microcontroller board
