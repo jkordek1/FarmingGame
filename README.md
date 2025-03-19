@@ -36,6 +36,8 @@ The crops/plants that players can plant are:
 | Lettuce    | Green  | 3     | 5      |
 | Blueberry  | Blue   | 4     | 7      |
 
+The winner is a player with most points scored after a number of turns.
+
 ## Project status
 - [x] Breadboard prototype
 - [x] Schematic
