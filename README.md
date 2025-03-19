@@ -44,7 +44,7 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 ![IRL](https://github.com/user-attachments/assets/e725a37f-8255-4fd5-af57-f00499a43b76)
 
 ## PCB
-There is a one big donut shaped PCB that contains all SMD and THD componentes.
+There is a big donut shaped PCB that contains all SMD and THD componentes.
 
 ## Enclosure
 The enclosure is composed of three distinct sections: an upper orange section, and middle and lower sections, both in white. Aside from that, there are also three buttons in four different colors used for menu control. There is also a 3D-printed piece that represents four soil spots for each player.
