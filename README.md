@@ -30,7 +30,7 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 ## Issues
 - Hardware is completely functional but software could use some extra work
 
-## Main features
+## Hardware
 - Based on popular LOLIN32 ESP32 microcontroller board
 - WS2812B-V5 addressable LEDs with no external components needed
 - 4x SSD1306 0.96" OLED displays
