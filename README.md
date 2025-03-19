@@ -52,10 +52,8 @@ The enclosure is composed of three distinct sections: an upper orange section, a
 ## Project folder structure
     ├── ...
     ├── Images                  # Images of the project
-    ├── Solidworks assembly     # Enclosure and PCB 3D model files
-    ├── KiCad files             # Main folder
-    │   ├── 3D models           # 3d models of components
-    │   ├── BoardGame           # KiCAD project for main PCB
-    │   ├── Dice                # KiCAD project for dice
-    │   └── Touchpad            # KiCAD project for touchpad controls
+    ├── 3D models               # Enclosure model parts
+    ├── KiCAD Files             # Main folder
+    │   ├── FullPCB           # 3d models of components
+    │       ├── BoardGame           # KiCAD project for main PCB
     └── ...
