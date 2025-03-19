@@ -46,6 +46,7 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 
 ## Images
 
+![IRL](https://github.com/user-attachments/assets/e725a37f-8255-4fd5-af57-f00499a43b76)
 
 
 ## PCBs
