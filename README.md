@@ -49,7 +49,9 @@ The winner is a player with most points scored after a number of turns.
 - [ ] Final testing phase
 - [ ] Adjust the game points for balance.
 
+## Issues
 - Hardware is completely functional, software could use some extra work
+- Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green. This was fixed by adding a dummy LED which is not used. The rest of the LEDs are working as intended.
 
 ## Hardware
 - Based on popular LOLIN32 ESP32 microcontroller board
@@ -66,7 +68,7 @@ The winner is a player with most points scored after a number of turns.
 ![IRL](https://github.com/user-attachments/assets/e725a37f-8255-4fd5-af57-f00499a43b76)
 
 ## PCB
-There is a big donut shaped PCB that contains all SMD and THD componentes.
+There is a donut shaped PCB that contains microcontroller, all SMD and THD componentes.
 
 ## Enclosure
 The enclosure is composed of three distinct sections: an upper orange section, and middle and lower sections, both in white. Aside from that, there are also three buttons in four different colors used for menu control. There is also a 3D-printed piece that represents four soil spots for each player.
@@ -76,6 +78,6 @@ The enclosure is composed of three distinct sections: an upper orange section, a
     ├── Images                  # Images of the project
     ├── 3D models               # Enclosure model parts
     ├── KiCAD Files             # Main folder
-    │   ├── FullPCB           # 3d models of components
-    │       ├── BoardGame           # KiCAD project for main PCB
+    │   ├── FullPCB             # 3d models of components
+    │       ├── BoardGame       # KiCAD project for main PCB
     └── ...
