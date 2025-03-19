@@ -1,9 +1,9 @@
 # FarmingGame
 
-[![Version](https://img.shields.io/github/v/release/jkordek1/Man-Don-t-Get-Angry-Board-game)](https://github.com/jkordek1/Man-Don-t-Get-Angry-Board-game/releases/tag/Initial)
+[![Version](https://img.shields.io/github/v/release/jkordek1/FarmingGame)](https://github.com/jkordek1/FarmingGame/releases/tag/Initial)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/jkordek1/Man-Don-t-Get-Angry-Board-game)](https://github.com/jkordek1/Man-Don-t-Get-Angry-Board-game/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/Man-Don-t-Get-Angry-Board-game)](https://github.com/jkordek1/Man-Don-t-Get-Angry-Board-game/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/jkordek1/FarmingGame)](https://github.com/jkordek1/FarmingGame/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jkordek1/FarmingGame)](https://github.com/jkordek1/FarmingGame/pulls)
 
 ## About
 <p align="center">
