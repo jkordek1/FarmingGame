@@ -25,6 +25,7 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 - [x] Assembly
 - [x] Programming
 - [ ] Final testing phase
+- [ ] Adjust the game points for balance.
 
 ## Issues
 - Hardware is completely functional, software could use some extra work
