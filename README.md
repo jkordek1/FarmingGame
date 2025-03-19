@@ -49,7 +49,6 @@ The winner is a player with most points scored after a number of turns.
 - [ ] Final testing phase
 - [ ] Adjust the game points for balance.
 
-## Issues
 - Hardware is completely functional, software could use some extra work
 
 ## Hardware
