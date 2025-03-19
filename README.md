@@ -16,6 +16,16 @@ This is a farming-themed electronic board game where players strategically plant
 ## Project idea
 The idea was to make a 2-4 players electronic board game that binds STEM field with agriculture. It was funded through Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
 
+## FarmingGame rules
+
+At the start of the game, you can choose to play with 2 to 4 players. If at least 2 players are selected, the first player begins their turn. Each turn consists of three phases.
+
+The first phase is random weather generation, with possible weather conditions being sunny, rainy, or drought. Depending on the weather, crops may either grow or remain stagnant.
+
+In the second phase (Harvest), players can harvest fully grown crops.
+
+The final phase (Plant) allows players to plant new crops in empty field spots and end their turn. When a crop is planted, the field lights up in a color representing that specific crop. The main circular display shows the remaining turns until the crop is fully grown.
+
 ## Project status
 - [x] Breadboard prototype
 - [x] Schematic
