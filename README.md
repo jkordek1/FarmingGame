@@ -26,7 +26,7 @@ In the second phase (Harvest), players can harvest fully grown crops.
 
 The final phase (Plant) allows players to plant new crops in empty field spots and end their turn. When a crop is planted, the field lights up in the color representing that specific crop. The main circular display shows the remaining turns until the crop is fully grown.
 
-The crops/ plants that players can plant are:
+The crops/plants that players can plant are:
 
 | Crop/Plant | Color  | Turns | Points |
 |------------|--------|-------|--------|
