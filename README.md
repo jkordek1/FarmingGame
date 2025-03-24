@@ -36,6 +36,9 @@ The crops/plants that players can plant are:
 | Lettuce    | Green  | 3     | 5      |
 | Blueberry  | Blue   | 4     | 7      |
 
+Number of turns needed for crops/plants to fully grow and points awarded for their harvest needs some work in order to properly balance the game.
+It's nearly there but not yet optimal. But the points awared should grow exponentaly compared to number of turns.
+
 The winner is a player with most points scored after a number of turns.
 
 ## Project status
