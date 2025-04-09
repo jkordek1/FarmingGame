@@ -10,7 +10,7 @@
   <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
-This is a farming-themed electronic board game where players strategically plant and harvest crops to earn points. Each crop requires a different number of turns to fully grow, with longer-growing crops yielding higher rewards. However, unpredictable weather conditions can slow down growth, making it crucial to plan wisely. Your goal is to develop the best strategy to maximize your harvest and score as many points as possible within a set number of turns.
+This is an electronic board game about farming in which players strategically plant and harvest crops to earn points. Each plant requires a different number of turns to grow fully, with longer growing plants bringing a higher reward. However, unpredictable weather conditions can slow down growth, so it's crucial to plan wisely. Your goal is to develop the best strategy to maximize your harvest and score as many points as possible within a given number of turns.
 
 
 ## Project idea
