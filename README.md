@@ -36,10 +36,9 @@ Players can grow the following crops/plants:
 | Lettuce    | Green  | 3     | 5      |
 | Blueberry  | Blue   | 4     | 7      |
 
-The number of turns needed for crops/plants to fully grow and points awarded for their harvest needs some work in order to properly balance the game.
-It's nearly there but not yet optimal. But the points awared should grow exponentially compared to number of turns.
+The number of turns required for the plants to fully grow and the points awarded for harvesting them need to be revised to balance the game properly. It is almost there, but not yet optimal. But the points you get should increase exponentially compared to the number of rounds.
 
-The winner is a player with most points scored after a number of turns.
+The player who has scored the most points after a certain number of rounds wins.
 
 ## Project status
 - [x] Breadboard prototype
