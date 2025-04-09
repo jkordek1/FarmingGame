@@ -70,7 +70,7 @@ The player who has scored the most points after a certain number of rounds wins.
 ![IRL](https://github.com/user-attachments/assets/e725a37f-8255-4fd5-af57-f00499a43b76)
 
 ## PCB
-There is a donut shaped PCB that contains microcontroller, all SMD and THD componentes.
+There is a donut-shaped circuit board containing a microcontroller, all SMD and THD components.
 
 ## Enclosure
 The enclosure consists of three different sections: an upper orange section, a middle section and a lower section, both made of white PLA material. There are also three buttons in four different colors that are used for the menu controls. There is also a 3D printed part that represents four ground points for each player.
