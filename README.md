@@ -73,7 +73,7 @@ The player who has scored the most points after a certain number of rounds wins.
 There is a donut shaped PCB that contains microcontroller, all SMD and THD componentes.
 
 ## Enclosure
-The enclosure is composed of three distinct sections: an upper orange section, and middle and lower sections, both in white PLA material. Aside from that, there are also three buttons in four different colors used for menu control. There is also a 3D-printed piece that represents four soil spots for each player.
+The enclosure consists of three different sections: an upper orange section, a middle section and a lower section, both made of white PLA material. There are also three buttons in four different colors that are used for the menu controls. There is also a 3D printed part that represents four ground points for each player.
 
 ## Project folder structure
     ├── ...
