@@ -18,15 +18,15 @@ The idea was to make a 2-4 players electronic board game that binds STEM field w
 
 ## FarmingGame rules
 
-At the start of the game, you can choose to play with 2 to 4 players. Once at least 2 players are selected, the first player begins their turn. Each turn consists of three phases.
+At the start of the game, you can choose whether you want to play with 2 or 4 players. As soon as at least 2 players have been selected, the first player begins his turn. Each turn consists of three phases.
 
-The first phase is random weather generation, with possible weather conditions being sunny, rainy, or drought. Depending on the weather, crops may either grow or remain stagnant.
+In the first phase, the weather is randomly generated, with the possible weather conditions being sunny, rainy or dry. Depending on the weather conditions, the crops either grow or remain standing.
 
-In the second phase (Harvest), players can harvest fully grown crops.
+In the second phase (harvest), players can harvest the fully grown crops.
 
-The final phase (Plant) allows players to plant new crops in empty field spots and end their turn. When a crop is planted, the field lights up in the color representing that specific crop. The main circular display shows the remaining turns until the crop is fully grown.
+In the final phase (planting), players can plant new crops on empty fields and end their turn. When a crop is planted, the field lights up in the color of the respective crop. The circular main display shows the remaining turns until the crop is fully planted.
 
-The crops/plants that players can plant are:
+Players can grow the following crops/plants:
 
 | Crop/Plant | Color  | Turns | Points |
 |------------|--------|-------|--------|
