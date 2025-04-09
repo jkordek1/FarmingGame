@@ -14,7 +14,7 @@ This is an electronic board game about farming in which players strategically pl
 
 
 ## Project idea
-The idea was to develop an electronic board game for 2-4 players that combines STEM with agriculture. It was funded by the Erasmus+ KA2 project [SEED2STEM: Planting the future of education] (https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
+The idea was to develop an electronic board game for 2-4 players that combines STEM with agriculture. It was funded by the Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
 
 ## FarmingGame rules
 
