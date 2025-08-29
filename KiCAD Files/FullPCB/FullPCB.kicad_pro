@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|137000000|74000000|0bad11b2-5343-4d64-a84b-2b5e5a7609d1|75af49fc-54d5-448a-88dd-d8ff94d7a256",
+          "unconnected_items|137000000|74000000|F.Cu|4|0bad11b2-5343-4d64-a84b-2b5e5a7609d1|75af49fc-54d5-448a-88dd-d8ff94d7a256",
           ""
         ],
         [
-          "unconnected_items|152506288|47466800|9d02a08a-fc75-47a5-aa18-14838f762cdb|54d4dca6-970a-4808-964a-8fb822277a8a",
+          "unconnected_items|152506288|47466800|F.Cu|4|9d02a08a-fc75-47a5-aa18-14838f762cdb|54d4dca6-970a-4808-964a-8fb822277a8a",
           ""
         ]
       ],
@@ -467,6 +467,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -574,12 +575,24 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
