@@ -1,4 +1,4 @@
-27226100839866294
+27226101179150611
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71810,8 +71810,8 @@ ESP32-S3
 
 
 0
-0
-0
+28
+28
 Library
 JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm
 JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
@@ -71827,12 +71827,12 @@ LOLIN32
 36
 36
 Library
-Untitled
+PCF8575
 
 
 0
-0
-0
+1
+1
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
