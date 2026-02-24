@@ -304,13 +304,35 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3DMODELS/Feather ESP32-S3.step"
 		(offset
-			(xyz 11.45 4.6 0)
+			(xyz 11.45 4.6 2.3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3DMODELS/12-Pin Header - Male - 2.54mm.step"
+		(offset
+			(xyz -10.1 21.1 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3DMODELS/16-Pin Header - Male - 2.54mm.step"
+		(offset
+			(xyz 10.2 11 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -0 -90)
 		)
 	)
 )
