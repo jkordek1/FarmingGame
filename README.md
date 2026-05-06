@@ -10,57 +10,131 @@
   <img src="https://github.com/jkordek1/FarmingGame/blob/main/Images/erasmus.png?raw=true">
 </p>
 
-This is an electronic board game about farming in which players strategically plant and harvest crops to earn points. Each plant requires a different number of turns to grow fully, with longer growing plants bringing a higher reward. However, unpredictable weather conditions can slow down growth, so it's crucial to plan wisely. Your goal is to develop the best strategy to maximize your harvest and score as many points as possible within a given number of turns.
+This is an electronic board game about farming where 2-4 players compete to grow crops and score the most points. Players strategically plant crops with different growing times and point values, while dealing with unpredictable weather that affects crop growth. The game features three difficulty modes, each with unique weather mechanics and strategic depth.
+
+**Key Features:**
+- **Multiple difficulty modes**: Simple (beginner-friendly), Medium (balanced), and Advanced (strategic with crop-specific weather effects)
+- **Dynamic weather system**: Weather drawn from a "bag" of 11 cards (4 Sunny, 3 Rain, 4 Drought) that refills when empty
+- **Strategic depth**: Advanced mode includes stale crops (25% points if not harvested quickly) and planting limits (2 crops per turn)
+- **Physical feedback**: LED ring shows field status, OLED displays for each player, central TFT screen with crop images
+- **Sound and visual effects**: Weather animations, harvest celebrations, victory fanfare
 
 
 ## Project idea
 The idea was to develop an electronic board game for 2-4 players that combines STEM with agriculture. It was funded by the Erasmus+ KA2 project [SEED2STEM: Planting the future of education](https://www.tvz.hr/introducing-seed2stem-planting-the-future-of-education/).
 
-## FarmingGame rules
+## How to Play
 
-At the start of the game, you can choose whether you want to play with 2 or 4 players. As soon as at least 2 players have been selected, the first player begins his turn. Each turn consists of three phases.
+### Game Setup
+1. **Power on** the device - "FARM GAME" logo appears
+2. **Player 1** presses CONFIRM to start player selection (or hold BACK for settings)
+3. **All players** press CONFIRM to join (2-4 players, 10-second window)
+4. **Game begins** automatically when time expires or all slots filled
 
-In the first phase, the weather is randomly generated, with the possible weather conditions being sunny, rainy or dry. Depending on the weather conditions, the crops either grow or remain standing.
+### Turn Structure
+Each player's turn has three phases:
 
-In the second phase (harvest), players can harvest the fully grown crops.
+1. **Weather Phase**: Press CONFIRM to reveal weather → Check effects on your crops → Press CONFIRM to continue
+2. **Field Management**: Navigate between fields (F1-F4) to harvest ready crops or plant new ones
+3. **End Turn**: Navigate to "End Turn" and press CONFIRM twice (or hold FORWARD for quick skip)
 
-In the final phase (planting), players can plant new crops on empty fields and end their turn. When a crop is planted, the field lights up in the color of the respective crop. The circular main display shows the remaining turns until the crop is fully planted.
+### Controls
+- **BACK/FORWARD**: Navigate left/right, decrease/increase values
+- **CONFIRM**: Select, confirm actions
+- **Hold FORWARD**: Quick jump to "End Turn" (1-second hold)
 
-Players can grow the following crops/plants:
+## Crops & Strategy
 
-| Crop/Plant | Color  | Turns | Points |
-|------------|--------|-------|--------|
-| Corn       | Yellow | 1     | 1      |
-| Carrot     | Orange | 2     | 3      |
-| Tomato     | Red    | 2     | 4      |
-| Lettuce    | Green  | 3     | 5      |
-| Blueberry  | Blue   | 4     | 7      |
+### Crop Information
+| Crop | Turns to Grow | Simple Mode | Medium Mode | Advanced Mode |
+|------|---------------|-------------|-------------|---------------|
+| **Corn** 🌽 | 2 | 1 point | 2 points | 3 points |
+| **Carrot** 🥕 | 3 | 4 points | 5 points | 6 points |
+| **Tomato** 🍅 | 4 | 8 points | 9 points | 12 points |
+| **Lettuce** 🥬 | 5 | 15 points | 16 points | 20 points |
+| **Blueberry** 🫐 | 6 | 20 points | 25 points | 30 points |
 
-The number of turns required for the plants to fully grow and the points awarded for harvesting them need to be revised to balance the game properly. It is almost there, but not yet optimal. But the points you get should increase exponentially compared to the number of rounds.
+### Game Modes
 
-The player who has scored the most points after a certain number of rounds wins.
+#### Simple Mode (Green) - Beginner Friendly
+- **Weather effects**: Drought = no growth, Rain = 50% chance growth, Sun = normal growth
+- **Strategy**: Focus on learning crop timing, weather is mostly unpredictable
 
-## Project status
+#### Medium Mode (Yellow) - Balanced Challenge
+- **Weather effects**: Drought = no growth, Rain = double growth, Sun = normal growth
+- **Strategy**: Time plantings before rain for maximum benefit
+
+#### Advanced Mode (Red) - Strategic Mastery
+- **Crop-specific weather effects**: Each crop reacts differently to weather
+  - **Drought**: Only corn survives (80% chance), others die
+  - **Sun**: Corn & Tomato thrive (double growth), others normal
+  - **Rain**: Carrot, Lettuce & Blueberry thrive (double growth), others normal
+- **Stale crops**: Unharvested ready crops spoil and give only 25% points
+- **Planting limit**: Maximum 2 crops per turn
+- **Strategy**: Match crops to expected weather, harvest immediately when ready
+
+### Weather System
+Weather is drawn from a "bag" of 11 cards:
+- **4 Sunny days** (36.4%)
+- **3 Rainy days** (27.3%) 
+- **4 Drought days** (36.4%)
+
+When all cards are used, the bag refills and reshuffles. Players can track drawn weather to predict what's coming next!
+
+## Project Status
 - [x] Breadboard prototype
-- [x] Schematic
-- [x] PCBs
-- [x] Enclosure design
+- [x] Schematic design
+- [x] PCB design and manufacturing
+- [x] Enclosure design and 3D printing
 - [x] 3D CAD assembly and renders
-- [x] Assembly
-- [x] Programming
-- [ ] Final testing phase
-- [ ] Adjust the game points for balance.
+- [x] Hardware assembly
+- [x] Core game programming
+- [x] **Game balancing completed** - All three difficulty modes fully implemented and balanced
+- [x] **Weather system** - Sophisticated bag-based weather with crop-specific effects
+- [x] **Advanced features** - Stale crops, planting limits, long-press shortcuts
+- [x] **Audio/Visual polish** - Sound effects, animations, victory celebrations
+- [x] **Documentation** - Complete rules, assembly instructions, cheat sheets
+- [x] Final testing and optimization
+- [x] Game points balanced for all modes
 
-## Issues
-- Hardware is completely functional, software could use some extra work
-- Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green. This was fixed by adding a dummy LED which is not used
+## Current Game State
+The game is **feature-complete and fully playable** with three balanced difficulty modes:
+- **Simple Mode**: Perfect for beginners and casual play
+- **Medium Mode**: Balanced challenge with predictable weather effects  
+- **Advanced Mode**: Strategic depth with crop-weather matching, spoilage mechanics, and resource management
 
-## Hardware
-- Based on popular LOLIN32 ESP32 microcontroller board
-- WS2812B-V5 addressable LEDs with no external components needed
-- 4x SSD1306 0.96" OLED displays
-- 1x GC9A01 IPS circular display
-- powered by microUSB cable
+**Recent Major Updates:**
+- Implemented crop-specific weather effects in Advanced mode
+- Added stale crop mechanics (25% points penalty)
+- Introduced per-turn planting limits (2 crops max in Advanced mode)
+- Balanced weather bag system (4 Sun, 3 Rain, 4 Drought)
+- Enhanced user interface with long-press shortcuts and improved text positioning
+- Complete audio/visual feedback system
+
+## Known Issues
+- ~~Hardware is completely functional, software could use some extra work~~ ✅ **Resolved**
+- ~~Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green~~ ✅ **Fixed by adding dummy LED**
+- ~~Game balance needed adjustment~~ ✅ **Completed - all modes balanced**
+
+**Current Status**: No major issues remaining. Game is stable and fully functional.
+
+## Hardware & Display System
+
+### Main Components
+- **ESP32-S3 microcontroller** (Adafruit Feather ESP32-S3)
+- **Central TFT display**: GC9A01 240x240 circular display showing crop images and game status
+- **Player displays**: 4x SSD1306 128x64 OLED screens for individual player information
+- **Status indicators**: WS2812B LED ring (16 LEDs, 4 per player) showing field status
+- **Input system**: PCF8575 I/O expander with tactile buttons for each player
+- **Audio feedback**: Buzzer for sound effects and music
+- **Power management**: Optional MAX17048 battery fuel gauge
+- **Connectivity**: Powered via USB-C
+
+### Display System
+- **Central TFT**: Shows active player (colored border), crop images, weather animations, victory screens
+- **Individual OLEDs**: Personal scores, field information, menus, weather effects for each player
+- **LED Ring**: Gray (empty field), colored (growing crop matching crop color), dark (player not active)
+- **Audio**: Navigation beeps, weather sounds, harvest celebrations, victory fanfare
 
 ## 3D renders
 ![Full1](https://github.com/user-attachments/assets/fab94822-5d9b-4d8f-8514-ddaf97034429)
