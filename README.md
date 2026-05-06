@@ -95,7 +95,6 @@ When all cards are used, the bag refills and reshuffles. Players can track drawn
 - [x] **Audio/Visual polish** - Sound effects, animations, victory celebrations
 - [x] **Documentation** - Complete rules, assembly instructions, cheat sheets
 - [x] Final testing and optimization
-- [x] Game points balanced for all modes
 
 ## Current Game State
 The game is **feature-complete and fully playable** with three balanced difficulty modes:
