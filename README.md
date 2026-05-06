@@ -113,7 +113,7 @@ The game is **feature-complete and fully playable** with three balanced difficul
 
 ## Known Issues
 - ~~Hardware is completely functional, software could use some extra work~~ ✅ **Resolved**
-- ~~Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green~~ ✅ **Fixed by adding dummy LED**
+- ~~Due to ESP32 Neopixel library bug, the first WS2812B LED sometimes lights up green~~ ✅ **Fixed
 - ~~Game balance needed adjustment~~ ✅ **Completed - all modes balanced**
 
 **Current Status**: No major issues remaining. Game is stable and fully functional.
